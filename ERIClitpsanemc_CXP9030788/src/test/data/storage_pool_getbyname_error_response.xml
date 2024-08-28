@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<CIM CIMVERSION="2.0" DTDVERSION="2.0"><MESSAGE ID="877" PROTOCOLVERSION="1.0"><SIMPLERSP><METHODRESPONSE NAME="ExecuteClientRequest"><RETURNVALUE TYPE="Navi_Error">
+<VALUE.NAMEDINSTANCE>
+<INSTANCENAME CLASSNAME="Navi_Error">
+</INSTANCENAME>
+<INSTANCE CLASSNAME="Navi_Error">
+<PROPERTY NAME="errorCode" TYPE="uint32"><VALUE>19721</VALUE>
+</PROPERTY>
+<PROPERTY NAME="success" TYPE="boolean"><VALUE>false</VALUE>
+</PROPERTY>
+<PROPERTY NAME="where" TYPE="string"><VALUE>ProvisionProvider</VALUE>
+</PROPERTY>
+<PROPERTY NAME="why" TYPE="string"><VALUE>Could&#32;not&#32;retrieve&#32;the&#32;specified&#32;(Storagepool).&#32;The&#32;(Storagepool)&#32;may&#32;not&#32;exist</VALUE>
+</PROPERTY>
+</INSTANCE>
+</VALUE.NAMEDINSTANCE>
+</RETURNVALUE></METHODRESPONSE></SIMPLERSP></MESSAGE></CIM>

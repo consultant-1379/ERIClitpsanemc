@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<CIM CIMVERSION="2.0" DTDVERSION="2.0"><MESSAGE ID="877" PROTOCOLVERSION="1.0"><SIMPLERSP><METHODRESPONSE NAME="ExecuteClientRequest"><PARAMVALUE NAME="CLASSIC CLI" TYPE="string"><VALUE>Policy ID:                        2&#10;Disk Type:                        SAS Flash&#10;Raw Capacity (MBs):               187847&#10;Number of Disks:                  3&#10;Unused disks for hot spares:      0&#10;Recommended Ratio of Keep Unused: 1/60&#10;Ratio of Keep Unused:             0&#10;Number to Keep Unused:            0&#10;Recommended:                      No&#10;&#10;Policy ID:                        1&#10;Disk Type:                        SAS&#10;Raw Capacity (MBs):               549691&#10;Number of Disks:                  75&#10;Unused disks for hot spares:      21&#10;Recommended Ratio of Keep Unused: 1/60&#10;Ratio of Keep Unused:             1/25&#10;Number to Keep Unused:            3&#10;Recommended:                      No&#10;&#10;</VALUE></PARAMVALUE><RETURNVALUE TYPE="Navi_Error">
+<VALUE.NAMEDINSTANCE>
+<INSTANCENAME CLASSNAME="Navi_Error">
+</INSTANCENAME>
+<INSTANCE CLASSNAME="Navi_Error">
+<PROPERTY NAME="errorCode" TYPE="uint32"><VALUE>0</VALUE>
+</PROPERTY>
+<PROPERTY NAME="success" TYPE="boolean"><VALUE>true</VALUE>
+</PROPERTY>
+<PROPERTY NAME="where" TYPE="string"><VALUE>CLIProvider</VALUE>
+</PROPERTY>
+<PROPERTY NAME="why" TYPE="string"><VALUE>success</VALUE>
+</PROPERTY>
+</INSTANCE>
+</VALUE.NAMEDINSTANCE>
+</RETURNVALUE></METHODRESPONSE></SIMPLERSP></MESSAGE></CIM>

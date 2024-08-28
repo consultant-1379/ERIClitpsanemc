@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<CIM CIMVERSION="2.0" DTDVERSION="2.0"><MESSAGE ID="877" PROTOCOLVERSION="1.0"><SIMPLERSP><METHODRESPONSE NAME="ExecuteClientRequest"><PARAMVALUE NAME="CLASSIC CLI" TYPE="string"><VALUE>
+<PARAMVALUE NAME="Storage Group Name" TYPE="string"><VALUE>atrcxb1032_1033</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Storage Group UID" TYPE="string"><VALUE>87:00:16:2F:33:FD:E3:11:B4:8F:00:60:16:5D:22:25</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA/SP Pairs" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="  HBA UID                                          SP Name     SPPort" TYPE="string"><VALUE>  50:01:43:80:12:0A:A7:8B:50:01:43:80:12:0A:A7:8A   SP A         3</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="  HBA UID                                          SP Name     SPPort" TYPE="string"><VALUE>  50:01:43:80:12:0A:A7:8B:50:01:43:80:12:0A:A7:8A   SP B         3</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="  HBA UID                                          SP Name     SPPort" TYPE="string"><VALUE>  50:01:43:80:12:0A:AA:E9:50:01:43:80:12:0A:AA:E8   SP A         0</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="  HBA UID                                          SP Name     SPPort" TYPE="string"><VALUE>  50:01:43:80:12:0A:AA:E9:50:01:43:80:12:0A:AA:E8   SP B         0</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="  HBA UID                                          SP Name     SPPort" TYPE="string"><VALUE>  50:01:43:80:12:0A:AA:E9:50:01:43:80:12:0A:AA:E8   SP A         1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="  HBA UID                                          SP Name     SPPort" TYPE="string"><VALUE>  50:01:43:80:12:0A:AA:E9:50:01:43:80:12:0A:AA:E8   SP B         1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="  HBA UID                                          SP Name     SPPort" TYPE="string"><VALUE>  50:01:43:80:12:0A:A7:89:50:01:43:80:12:0A:A7:88   SP A         0</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="  HBA UID                                          SP Name     SPPort" TYPE="string"><VALUE>  50:01:43:80:12:0A:A7:89:50:01:43:80:12:0A:A7:88   SP B         0</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="  HBA UID                                          SP Name     SPPort" TYPE="string"><VALUE>  50:01:43:80:12:0A:A7:89:50:01:43:80:12:0A:A7:88   SP A         1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="  HBA UID                                          SP Name     SPPort" TYPE="string"><VALUE>  50:01:43:80:12:0A:AA:EB:50:01:43:80:12:0A:AA:EA   SP A         3</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="  HBA UID                                          SP Name     SPPort" TYPE="string"><VALUE>  50:01:43:80:12:0A:A7:89:50:01:43:80:12:0A:A7:88   SP B         1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="  HBA UID                                          SP Name     SPPort" TYPE="string"><VALUE>  50:01:43:80:12:0A:AA:EB:50:01:43:80:12:0A:AA:EA   SP B         3</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HLU/ALU Pairs" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="  HLU Number     ALU Number" TYPE="string"><VALUE>    0               7</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="  HLU Number     ALU Number" TYPE="string"><VALUE>    1               8</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="  HLU Number     ALU Number" TYPE="string"><VALUE>    2               5</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="  HLU Number     ALU Number" TYPE="string"><VALUE>    3               6</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="  HLU Number     ALU Number" TYPE="string"><VALUE>    4               10</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="  HLU Number     ALU Number" TYPE="string"><VALUE>    5               14</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="  HLU Number     ALU Number" TYPE="string"><VALUE>    6               11</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="  HLU Number     ALU Number" TYPE="string"><VALUE>    7               9</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="  HLU Number     ALU Number" TYPE="string"><VALUE>    8               13</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="  HLU Number     ALU Number" TYPE="string"><VALUE>    9               12</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="  HLU Number     ALU Number" TYPE="string"><VALUE>    10              33</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Shareable" TYPE="string"><VALUE>YES</VALUE>
+</PARAMVALUE>
+
+
+<PARAMVALUE NAME="Storage Group Name" TYPE="string"><VALUE>eadapar</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Storage Group UID" TYPE="string"><VALUE>2D:24:5A:D9:C8:E4:E3:11:A9:A9:00:60:16:67:CC:AD</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA/SP Pairs" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="  HBA UID                                          SP Name     SPPort" TYPE="string"><VALUE>  50:01:43:80:04:BF:45:6A:50:01:43:80:04:BF:45:68   SP A         0</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="  HBA UID                                          SP Name     SPPort" TYPE="string"><VALUE>  50:01:43:80:04:BF:45:6A:50:01:43:80:04:BF:45:68   SP B         0</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="  HBA UID                                          SP Name     SPPort" TYPE="string"><VALUE>  50:01:43:80:04:BF:45:6A:50:01:43:80:04:BF:45:68   SP A         1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="  HBA UID                                          SP Name     SPPort" TYPE="string"><VALUE>  50:01:43:80:04:BF:45:6A:50:01:43:80:04:BF:45:68   SP B         1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Shareable" TYPE="string"><VALUE>YES</VALUE>
+</PARAMVALUE>
+
+
+<PARAMVALUE NAME="Storage Group Name" TYPE="string"><VALUE>xb1392_stats</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Storage Group UID" TYPE="string"><VALUE>6E:FB:73:BB:76:FC:E3:11:B4:8F:00:60:16:5D:22:25</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA/SP Pairs" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="  HBA UID                                          SP Name     SPPort" TYPE="string"><VALUE>  50:01:43:80:18:70:AE:B5:50:01:43:80:18:70:AE:B4   SP A         0</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="  HBA UID                                          SP Name     SPPort" TYPE="string"><VALUE>  50:01:43:80:18:70:AE:B5:50:01:43:80:18:70:AE:B4   SP B         0</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="  HBA UID                                          SP Name     SPPort" TYPE="string"><VALUE>  50:01:43:80:18:70:AE:B5:50:01:43:80:18:70:AE:B4   SP A         1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="  HBA UID                                          SP Name     SPPort" TYPE="string"><VALUE>  50:01:43:80:18:70:AE:B7:50:01:43:80:18:70:AE:B6   SP A         1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="  HBA UID                                          SP Name     SPPort" TYPE="string"><VALUE>  50:01:43:80:18:70:AE:B5:50:01:43:80:18:70:AE:B4   SP B         1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="  HBA UID                                          SP Name     SPPort" TYPE="string"><VALUE>  50:01:43:80:18:70:AE:B7:50:01:43:80:18:70:AE:B6   SP B         1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="  HBA UID                                          SP Name     SPPort" TYPE="string"><VALUE>  50:01:43:80:18:70:AE:B7:50:01:43:80:18:70:AE:B6   SP A         3</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="  HBA UID                                          SP Name     SPPort" TYPE="string"><VALUE>  50:01:43:80:18:70:AE:B7:50:01:43:80:18:70:AE:B6   SP B         3</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HLU/ALU Pairs" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="  HLU Number     ALU Number" TYPE="string"><VALUE>    0               4</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="  HLU Number     ALU Number" TYPE="string"><VALUE>    1               17</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="  HLU Number     ALU Number" TYPE="string"><VALUE>    2               25</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="  HLU Number     ALU Number" TYPE="string"><VALUE>    3               26</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="  HLU Number     ALU Number" TYPE="string"><VALUE>    4               0</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="  HLU Number     ALU Number" TYPE="string"><VALUE>    5               1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="  HLU Number     ALU Number" TYPE="string"><VALUE>    6               27</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="  HLU Number     ALU Number" TYPE="string"><VALUE>    7               28</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Shareable" TYPE="string"><VALUE>YES</VALUE>
+</PARAMVALUE>
+
+
+<PARAMVALUE NAME="Storage Group Name" TYPE="string"><VALUE>Storage Group 5</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Storage Group UID" TYPE="string"><VALUE>68:71:17:B6:2D:F6:E3:11:B4:8F:00:60:16:5D:22:25</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Shareable" TYPE="string"><VALUE>YES</VALUE>
+</PARAMVALUE>
+
+
+<PARAMVALUE NAME="Storage Group Name" TYPE="string"><VALUE>atsg</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Storage Group UID" TYPE="string"><VALUE>FA:DB:93:6E:F6:10:E4:11:B4:8F:00:60:16:5D:22:25</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HLU/ALU Pairs" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="  HLU Number     ALU Number" TYPE="string"><VALUE>    0               1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Shareable" TYPE="string"><VALUE>YES</VALUE>
+</PARAMVALUE>
+
+
+<PARAMVALUE NAME="Storage Group Name" TYPE="string"><VALUE>stephene</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Storage Group UID" TYPE="string"><VALUE>55:C4:95:80:BF:10:E4:11:B4:8F:00:60:16:5D:22:25</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Shareable" TYPE="string"><VALUE>YES</VALUE>
+</PARAMVALUE>
+
+
+<PARAMVALUE NAME="Storage Group Name" TYPE="string"><VALUE>atsfs43_44</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Storage Group UID" TYPE="string"><VALUE>FE:57:91:5E:F4:DF:E3:11:B7:9A:00:60:16:5D:22:25</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA/SP Pairs" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="  HBA UID                                          SP Name     SPPort" TYPE="string"><VALUE>  50:01:43:80:12:0B:36:09:50:01:43:80:12:0B:36:08   SP A         1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="  HBA UID                                          SP Name     SPPort" TYPE="string"><VALUE>  50:01:43:80:12:0B:36:09:50:01:43:80:12:0B:36:08   SP B         1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="  HBA UID                                          SP Name     SPPort" TYPE="string"><VALUE>  50:01:43:80:12:0B:33:61:50:01:43:80:12:0B:33:60   SP A         0</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="  HBA UID                                          SP Name     SPPort" TYPE="string"><VALUE>  50:01:43:80:12:0B:33:61:50:01:43:80:12:0B:33:60   SP B         0</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="  HBA UID                                          SP Name     SPPort" TYPE="string"><VALUE>  50:01:43:80:12:0B:33:61:50:01:43:80:12:0B:33:60   SP A         1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="  HBA UID                                          SP Name     SPPort" TYPE="string"><VALUE>  50:01:43:80:12:0B:33:61:50:01:43:80:12:0B:33:60   SP B         1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="  HBA UID                                          SP Name     SPPort" TYPE="string"><VALUE>  50:01:43:80:12:0B:36:09:50:01:43:80:12:0B:36:08   SP A         0</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="  HBA UID                                          SP Name     SPPort" TYPE="string"><VALUE>  50:01:43:80:12:0B:36:09:50:01:43:80:12:0B:36:08   SP B         0</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HLU/ALU Pairs" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="  HLU Number     ALU Number" TYPE="string"><VALUE>    5               24</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="  HLU Number     ALU Number" TYPE="string"><VALUE>    1               29</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="  HLU Number     ALU Number" TYPE="string"><VALUE>    0               30</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="  HLU Number     ALU Number" TYPE="string"><VALUE>    2               32</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="  HLU Number     ALU Number" TYPE="string"><VALUE>    3               3</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="  HLU Number     ALU Number" TYPE="string"><VALUE>    4               34</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Shareable" TYPE="string"><VALUE>YES</VALUE>
+</PARAMVALUE>
+
+
+<PARAMVALUE NAME="Storage Group Name" TYPE="string"><VALUE>Federico Storage Group</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Storage Group UID" TYPE="string"><VALUE>5A:3F:BA:EF:88:06:E4:11:B4:8F:00:60:16:5D:22:25</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Shareable" TYPE="string"><VALUE>YES</VALUE>
+</PARAMVALUE>
+
+</VALUE></PARAMVALUE><RETURNVALUE TYPE="Navi_Error">
+<VALUE.NAMEDINSTANCE>
+<INSTANCENAME CLASSNAME="Navi_Error">
+</INSTANCENAME>
+<INSTANCE CLASSNAME="Navi_Error">
+<PROPERTY NAME="errorCode" TYPE="uint32"><VALUE>0</VALUE>
+</PROPERTY>
+<PROPERTY NAME="success" TYPE="boolean"><VALUE>true</VALUE>
+</PROPERTY>
+<PROPERTY NAME="where" TYPE="string"><VALUE>CLIProvider</VALUE>
+</PROPERTY>
+<PROPERTY NAME="why" TYPE="string"><VALUE>success</VALUE>
+</PROPERTY>
+</INSTANCE>
+</VALUE.NAMEDINSTANCE>
+</RETURNVALUE></METHODRESPONSE></SIMPLERSP></MESSAGE></CIM>
+

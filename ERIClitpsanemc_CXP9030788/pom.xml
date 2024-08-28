@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.ericsson.nms.litp</groupId>
+	<artifactId>ERIClitpsanemc_CXP9030788</artifactId>
+	<packaging>rpm</packaging>
+	<name>[${project.parent.artifactId}] CXP module</name>
+	<description>SAN API RPM</description>
+
+	<parent>
+		<groupId>com.ericsson.nms.litp</groupId>
+		<artifactId>ERIClitpsanemc</artifactId>
+		<version>2.10.1-SNAPSHOT</version>
+	</parent>
+
+	<licenses>
+		<license>
+			<name>LM Ericsson Ltd</name>
+		</license>
+	</licenses>
+
+	<organization>
+		<name>Ericsson</name>
+		<url>http://www.ericsson.com</url>
+	</organization>
+
+	<properties>
+		<com.ericsson.oss.rpm.architecture>noarch</com.ericsson.oss.rpm.architecture>
+		<!-- Install path = /${rpm-root}/${comp-name}/${install-path} -->
+		<rpm-root>opt</rpm-root>
+		<comp-name>ericsson</comp-name>
+		<install-path>nms/litp/lib/sanapi</install-path>
+
+		<!-- publishes the rpm module to the ci portal -->
+		<publish_artifact>true</publish_artifact>
+		<product>TOR</product>
+		<media.category>plugin,db</media.category>
+		<delivery.drop>3.0.S</delivery.drop>
+		<!-- This is used to disable rpm packaging when building on a non-Linux 
+			OS -->
+		<rpm.packaging>pom</rpm.packaging>
+		<packaging.type>${project.packaging}</packaging.type>
+
+		<depsite.url>dav:https://arm1s11-eiffel004.eiffel.gic.ericsson.se:8443/nexus/content/sites/dependencies/${project.version}</depsite.url>
+		<release.repo>releases</release.repo>
+	</properties>
+
+	<dependencyManagement>
+		<dependencies>
+		</dependencies>
+	</dependencyManagement>
+	<build>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<groupId>org.codehaus.mojo</groupId>
+					<artifactId>versions-maven-plugin</artifactId>
+					<version>1.3.1</version>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-dependency-plugin</artifactId>
+					<version>2.5.1</version>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-enforcer-plugin</artifactId>
+					<version>1.1.1</version>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-clean-plugin</artifactId>
+					<version>2.5</version>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-deploy-plugin</artifactId>
+					<version>2.7</version>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-reactor-plugin</artifactId>
+					<version>1.0</version>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-eclipse-plugin</artifactId>
+					<version>2.9</version>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-install-plugin</artifactId>
+					<version>2.4</version>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-resources-plugin</artifactId>
+					<version>2.6</version>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-source-plugin</artifactId>
+					<version>2.2.1</version>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-release-plugin</artifactId>
+					<version>2.4.1</version>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-compiler-plugin</artifactId>
+					<!-- Note: version 3.0 is broken -->
+					<version>2.5.1</version>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-assembly-plugin</artifactId>
+					<version>2.4</version>
+				</plugin>
+
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-site-plugin</artifactId>
+					<version>3.3</version>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-pmd-plugin</artifactId>
+					<version>2.7.1</version>
+				</plugin>
+
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-changes-plugin</artifactId>
+					<version>2.8</version>
+				</plugin>
+
+				<plugin>
+					<groupId>org.codehaus.mojo</groupId>
+					<artifactId>rpm-maven-plugin</artifactId>
+					<version>2.1-alpha-2</version>
+				</plugin>
+
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-scm-plugin</artifactId>
+					<version>1.8.1</version>
+				</plugin>
+				<plugin>
+					<groupId>com.ericsson.maven.plugins</groupId>
+					<artifactId>rstate-maven-plugin</artifactId>
+					<version>1.0</version>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-enforcer-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-release-plugin</artifactId>
+				<configuration>
+					<releaseProfiles>release</releaseProfiles>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>com.ericsson.maven.plugins</groupId>
+				<artifactId>rstate-maven-plugin</artifactId>
+				<executions>
+					<execution>
+						<id>rstate</id>
+						<phase>validate</phase>
+						<goals>
+							<goal>rstate</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>build-helper-maven-plugin</artifactId>
+				<version>1.7</version>
+				<executions>
+					<execution>
+						<id>regex-property</id>
+						<goals>
+							<goal>regex-property</goal>
+						</goals>
+						<configuration>
+							<name>stripped.artifactId</name>
+							<value>${project.artifactId}</value>
+							<regex>ERIC(.*)</regex>
+							<replacement>$1</replacement>
+							<failIfNoMatch>false</failIfNoMatch>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>rpm-maven-plugin</artifactId>
+				<extensions>true</extensions>
+				<configuration>
+					<skip>true</skip>
+					<inherited>true</inherited>
+					<copyright>2012 Ericsson AB All rights reserved</copyright>
+					<summary>${stripped.artifactId}</summary>
+					<packager>${ericsson.rstate}</packager>
+					<group>ERI-NMS</group>
+					<requires>
+						<require>python &gt;= 2.6</require>
+						<require>NaviCLI-Linux-64-x86-en_US</require>
+					</requires>
+					<vendor>Ericsson AB</vendor>
+					<url>www.ericsson.com</url>
+					<defineStatements>
+						<defineStatement>_unpackaged_files_terminate_build 0</defineStatement>
+					</defineStatements>
+					<mappings>
+                                                <!--
+						<mapping>
+							<directory>/${rpm-root}/${comp-name}</directory>
+							<filemode>775</filemode>
+							<username>root</username>
+							<groupname>root</groupname>
+						</mapping>
+                                                -->
+						<mapping>
+							<directory>/${rpm-root}/${comp-name}/${install-path}</directory>
+							<filemode>775</filemode>
+							<username>root</username>
+							<groupname>root</groupname>
+							<configuration>false</configuration>
+							<directoryIncluded>true</directoryIncluded>
+							<recurseDirectories>true</recurseDirectories>
+							<dependency />
+							<sources>
+								<source>
+									<location>target/classes/python</location>
+									<excludes>
+										<exclude>**/*.pyc</exclude>
+										<exclude>**/*.gitignore</exclude>
+									</excludes>
+								</source>
+							</sources>
+						</mapping>
+						<mapping>
+							<directory>/${rpm-root}/${comp-name}/${install-path}/bin</directory>
+							<filemode>775</filemode>
+							<username>root</username>
+							<groupname>root</groupname>
+							<configuration>false</configuration>
+							<directoryIncluded>true</directoryIncluded>
+							<recurseDirectories>true</recurseDirectories>
+							<dependency />
+							<sources>
+								<source>
+									<location>target/classes/bin</location>
+									<excludes>
+										<exclude>**/*.pyc</exclude>
+										<exclude>**/*.gitignore</exclude>
+									</excludes>
+								</source>
+							</sources>
+						</mapping>
+						<mapping>
+							<directory>/${rpm-root}/${comp-name}/${install-path}/etc</directory>
+							<filemode>775</filemode>
+							<username>root</username>
+							<groupname>root</groupname>
+							<configuration>false</configuration>
+							<directoryIncluded>true</directoryIncluded>
+							<recurseDirectories>true</recurseDirectories>
+							<dependency />
+							<sources>
+								<source>
+									<location>target/classes/etc</location>
+									<excludes>
+										<exclude>**/*.pyc</exclude>
+										<exclude>**/version.txt</exclude>
+										<exclude>**/*.gitignore</exclude>
+										<exclude>**/ETF.xml</exclude>
+										<exclude>**/*.sql</exclude>
+									</excludes>
+								</source>
+							</sources>
+						</mapping>
+						<mapping>
+							<directory>/${rpm-root}/${comp-name}/${install-path}/lib</directory>
+							<filemode>775</filemode>
+							<username>root</username>
+							<groupname>root</groupname>
+							<configuration>false</configuration>
+							<directoryIncluded>true</directoryIncluded>
+							<recurseDirectories>true</recurseDirectories>
+							<dependency />
+							<sources>
+								<source>
+									<location>src/main/lib</location>
+									<excludes>
+										<exclude>**/*.pyc</exclude>
+										<exclude>**/version.txt</exclude>
+										<exclude>**/*.gitignore</exclude>
+										<exclude>**/ETF.xml</exclude>
+										<exclude>**/*.sql</exclude>
+									</excludes>
+								</source>
+							</sources>
+						</mapping>
+						<mapping>
+							<directory>/${rpm-root}/${comp-name}/${install-path}/rpm</directory>
+							<filemode>775</filemode>
+							<username>root</username>
+							<groupname>root</groupname>
+							<configuration>false</configuration>
+							<directoryIncluded>true</directoryIncluded>
+							<recurseDirectories>true</recurseDirectories>
+							<dependency />
+							<sources>
+								<source>
+									<location>src/main/rpm</location>
+									<excludes>
+										<exclude>**/*.pyc</exclude>
+										<exclude>**/version.txt</exclude>
+										<exclude>**/*.gitignore</exclude>
+										<exclude>**/ETF.xml</exclude>
+										<exclude>**/*.sql</exclude>
+									</excludes>
+								</source>
+							</sources>
+						</mapping>
+					</mappings>
+					<preinstallScriptlet>
+						<scriptFile>src/main/scripts/preinstall.sh</scriptFile>
+						<fileEncoding>utf-8</fileEncoding>
+					</preinstallScriptlet>
+					<postinstallScriptlet>
+						<scriptFile>target/classes/bin/postinstall.sh</scriptFile>
+						<fileEncoding>utf-8</fileEncoding>
+					</postinstallScriptlet>
+					<preremoveScriptlet>
+						<scriptFile>src/main/scripts/preremove.sh</scriptFile>
+						<fileEncoding>utf-8</fileEncoding>
+					</preremoveScriptlet>
+					<postremoveScriptlet>
+						<scriptFile>target/classes/bin/postremove.sh</scriptFile>
+						<fileEncoding>utf-8</fileEncoding>
+					</postremoveScriptlet>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-resources-plugin</artifactId>
+				<configuration>
+					<!-- specify UTF-8, ISO-8859-1 or any other file encoding -->
+					<encoding>UTF-8</encoding>
+				</configuration>
+				<executions>
+					<!-- <execution> Execution added to filter rst files properties before 
+						being parsed by sphinx <id>copy-rst-files</id> <phase>validate</phase> <goals> 
+						<goal>copy-resources</goal> </goals> <configuration> <outputDirectory>${basedir}/src/site/sphinx</outputDirectory> 
+						<resources> <resource> <directory>${basedir}/src/site/rst-files</directory> 
+						<filtering>true</filtering> </resource> </resources> </configuration> </execution> -->
+				</executions>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-site-plugin</artifactId>
+			</plugin>
+		</plugins>
+		<resources>
+			<resource>
+				<directory>src/main/bin</directory>
+				<filtering>true</filtering>
+				<targetPath>bin</targetPath>
+			</resource>
+			<resource>
+				<directory>src/main/etc</directory>
+				<filtering>true</filtering>
+				<targetPath>etc</targetPath>
+			</resource>
+			<resource>
+				<directory>src/main/python</directory>
+				<filtering>true</filtering>
+				<targetPath>python</targetPath>
+			</resource>
+		</resources>
+	</build>
+	<profiles>
+		<profile>
+			<id>rpmbuild</id>
+			<activation>
+				<os>
+					<family>Linux</family>
+				</os>
+			</activation>
+			<properties>
+				<!-- Enable RPM packaging since we're building on Linux -->
+				<rpm.packaging>rpm</rpm.packaging>
+			</properties>
+		</profile>
+
+		<!-- Python test profile. It needs to be fixed in order to run tests like 
+			mvn clean test -P test-python-code -->
+		<profile>
+			<id>test-python</id>
+			<activation>
+				<file> <!-- The "__init__.py" directly under ../src is bogus, but it is needed because 
+						of the way we run nosetests (with just ../src as an argument). So we can 
+						use it here to make up for the inability of maven to test for the existence 
+						of the ../src directory. -->
+					<exists>./src/main/python/__init__.py</exists>
+				</file>
+			</activation>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>org.codehaus.mojo</groupId>
+						<artifactId>exec-maven-plugin</artifactId>
+						<version>1.3</version>
+						<executions>
+							<!-- <execution> <configuration> <executable>sphinx-build</executable> 
+								<workingDirectory>${basedir}/src/site/sphinx</workingDirectory> <arguments> 
+								<argument>-b</argument> <argument>html</argument> <argument>./</argument> 
+								<argument>${project.build.outputDirectory}/docs</argument> </arguments> </configuration> 
+								<id>sphinx-generate-docs</id> <phase>clean</phase> <goals> <goal>exec</goal> 
+								</goals> </execution> -->
+							<execution>
+								<!-- run nosetests -->
+								<configuration>
+									<executable>nosetests</executable>
+									<environmentVariables>
+										<PYTHONPATH>${basedir}/src/main/python/:${env.PYTHONPATH}</PYTHONPATH>
+									</environmentVariables>
+									<workingDirectory>${basedir}/src/test/python</workingDirectory>
+									<arguments>
+										<argument>-v</argument>
+										<argument>--exe</argument>
+										<argument>--cover-erase</argument>
+										<argument>--with-coverage</argument>
+										<argument>--cover-html</argument>
+										<argument>--cover-html-dir=./htmlcov</argument>
+										<argument>--cover-inclusive</argument>
+										<argument>--cover-package="sanapicfg, sanapiexception,
+											sanapiinfo, sanapilib, sanapilog, sanapi, sancli,
+											sancliexception, vnx1api, vnx2api, vnxcommonapi, vnxparser, unityapi, unityrest"</argument>
+									</arguments>
+								</configuration>
+								<id>nosetests</id>
+								<phase>test</phase>
+								<goals>
+									<goal>exec</goal>
+								</goals>
+							</execution>
+						</executions>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+		<profile>
+			<id>maven-3</id>
+			<activation>
+				<file>
+					<!-- This employs that the basedir expression is only recognized by 
+						Maven 3.x (see MNG-2363) -->
+					<exists>${basedir}</exists>
+				</file>
+			</activation>
+			<!-- <build> <plugins> <plugin> <groupId>org.apache.maven.plugins</groupId> 
+				<artifactId>maven-site-plugin</artifactId> <version>3.0-beta-3</version> 
+				<configuration> <reportPlugins> <plugin> <groupId>org.apache.maven.plugins</groupId> 
+				<artifactId>maven-project-info-reports-plugin</artifactId> <version>2.2</version> 
+				<reportSets> <reportSet> <reports /> </reportSet> </reportSets> </plugin> 
+				<plugin> <groupId>org.tomdz.maven</groupId> <artifactId>sphinx-maven-plugin</artifactId> 
+				<version>1.0.3</version> </plugin> </reportPlugins> </configuration> </plugin> 
+				</plugins> </build> -->
+		</profile>
+		<profile>
+			<id>sonar</id>
+			<properties>
+				<sonar.dynamicAnalysis>true</sonar.dynamicAnalysis>
+				<sonar.language>py</sonar.language>
+				<sonar.sources>src/main/python,src/test/python</sonar.sources>
+				<sonar.python.xunit.reportPath>nosetests.xml</sonar.python.xunit.reportPath>
+				<sonar.python.coverage.reportPath>coverage.xml</sonar.python.coverage.reportPath>
+			</properties>
+		</profile>
+	</profiles>
+</project>

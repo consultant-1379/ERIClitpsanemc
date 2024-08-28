@@ -1,0 +1,2 @@
+Exception: Error occurred because connection refused. Management Server is not running.
+# stdout above, stderr = none, ret = 1.  It seems that navisec reached the server, but its a server which does not have management server to respond to navisec queries

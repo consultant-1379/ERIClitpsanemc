@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<CIM CIMVERSION="2.0" DTDVERSION="2.0"><MESSAGE ID="877" PROTOCOLVERSION="1.0"><SIMPLERSP><METHODRESPONSE NAME="ExecuteClientRequest"><RETURNVALUE TYPE="Navi_Error">
+<VALUE.NAMEDINSTANCE>
+<INSTANCENAME CLASSNAME="Navi_Error">
+</INSTANCENAME>
+<INSTANCE CLASSNAME="Navi_Error">
+<PROPERTY NAME="errorCode" TYPE="uint32"><VALUE>28050</VALUE>
+</PROPERTY>
+<PROPERTY NAME="success" TYPE="boolean"><VALUE>false</VALUE>
+</PROPERTY>
+<PROPERTY NAME="where" TYPE="string"><VALUE>ProvisionProvider</VALUE>
+</PROPERTY>
+<PROPERTY NAME="why" TYPE="string"><VALUE>The&#32;best&#32;practices&#32;check&#32;for&#32;the&#32;storagepool&apos;s&#32;creation&#32;did&#32;not&#32;finish&#32;successfully.&#32;The&#32;storagepool&#32;will&#32;not&#32;be&#32;created</VALUE>
+</PROPERTY>
+</INSTANCE>
+</VALUE.NAMEDINSTANCE>
+</RETURNVALUE><PARAMVALUE NAME="Rule Messages" TYPE="string"><VALUE.ARRAY>
+<VALUE>Could&#32;not&#32;use&#32;the&#32;disk&#32;:&#32;0_0_17.&#32;The&#32;disk&#32;is&#32;already&#32;part&#32;of&#32;a&#32;Storage&#32;Pool.</VALUE>
+<VALUE>Could&#32;not&#32;use&#32;the&#32;disk&#32;:&#32;0_0_15.&#32;The&#32;disk&#32;is&#32;already&#32;part&#32;of&#32;a&#32;Storage&#32;Pool.</VALUE>
+<VALUE>Could&#32;not&#32;use&#32;the&#32;disk&#32;:&#32;0_0_14.&#32;The&#32;disk&#32;is&#32;already&#32;part&#32;of&#32;a&#32;Storage&#32;Pool.</VALUE>
+<VALUE>Could&#32;not&#32;use&#32;the&#32;disk&#32;:&#32;0_0_18.&#32;The&#32;disk&#32;is&#32;already&#32;part&#32;of&#32;a&#32;Storage&#32;Pool.</VALUE>
+<VALUE>Could&#32;not&#32;use&#32;the&#32;disk&#32;:&#32;0_0_16.&#32;The&#32;disk&#32;is&#32;already&#32;part&#32;of&#32;a&#32;Storage&#32;Pool.</VALUE>
+</VALUE.ARRAY>
+</PARAMVALUE>
+</METHODRESPONSE></SIMPLERSP></MESSAGE></CIM>
+

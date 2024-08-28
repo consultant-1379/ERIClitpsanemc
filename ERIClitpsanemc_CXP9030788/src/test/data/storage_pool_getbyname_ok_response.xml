@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<CIM CIMVERSION="2.0" DTDVERSION="2.0"><MESSAGE ID="877" PROTOCOLVERSION="1.0"><SIMPLERSP><METHODRESPONSE NAME="ExecuteClientRequest"><RETURNVALUE TYPE="Navi_Error">
+<VALUE.NAMEDINSTANCE>
+<INSTANCENAME CLASSNAME="Navi_Error">
+</INSTANCENAME>
+<INSTANCE CLASSNAME="Navi_Error">
+<PROPERTY NAME="errorCode" TYPE="uint32"><VALUE>0</VALUE>
+</PROPERTY>
+<PROPERTY NAME="success" TYPE="boolean"><VALUE>true</VALUE>
+</PROPERTY>
+<PROPERTY NAME="where" TYPE="string"><VALUE>ProvisionProvider</VALUE>
+</PROPERTY>
+<PROPERTY NAME="why" TYPE="string"><VALUE></VALUE>
+</PROPERTY>
+</INSTANCE>
+</VALUE.NAMEDINSTANCE>
+</RETURNVALUE><PARAMVALUE NAME="Pool Name" TYPE="string"><VALUE>TORD7</VALUE>
+</PARAMVALUE>
+<PARAMVALUE NAME="Pool ID" TYPE="string"><VALUE>5</VALUE>
+</PARAMVALUE>
+<PARAMVALUE NAME="Raid Type" TYPE="string"><VALUE>r_6</VALUE>
+</PARAMVALUE>
+<PARAMVALUE NAME="Percent Full Threshold" TYPE="string"><VALUE>70</VALUE>
+</PARAMVALUE>
+<PARAMVALUE NAME="Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+<PARAMVALUE NAME="Disk Type" TYPE="string"><VALUE>SAS</VALUE>
+</PARAMVALUE>
+<PARAMVALUE NAME="State" TYPE="string"><VALUE>Ready</VALUE>
+</PARAMVALUE>
+<PARAMVALUE NAME="Status" TYPE="string"><VALUE>OK(0x0)</VALUE>
+</PARAMVALUE>
+<PARAMVALUE NAME="Current Operation" TYPE="string"><VALUE>None</VALUE>
+</PARAMVALUE>
+<PARAMVALUE NAME="Current Operation State" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+<PARAMVALUE NAME="Current Operation Status" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+<PARAMVALUE NAME="Current Operation Percent Completed" TYPE="string"><VALUE>0</VALUE>
+</PARAMVALUE>
+<PARAMVALUE NAME="Raw Capacity (Blocks)" TYPE="string"><VALUE>9006148608</VALUE>
+</PARAMVALUE>
+<PARAMVALUE NAME="Raw Capacity (GBs)" TYPE="string"><VALUE>4294.466</VALUE>
+</PARAMVALUE>
+<PARAMVALUE NAME="User Capacity (Blocks)" TYPE="string"><VALUE>6721892352</VALUE>
+</PARAMVALUE>
+<PARAMVALUE NAME="User Capacity (GBs)" TYPE="string"><VALUE>3205.248</VALUE>
+</PARAMVALUE>
+<PARAMVALUE NAME="Consumed Capacity (Blocks)" TYPE="string"><VALUE>3235921920</VALUE>
+</PARAMVALUE>
+<PARAMVALUE NAME="Consumed Capacity (GBs)" TYPE="string"><VALUE>1543.008</VALUE>
+</PARAMVALUE>
+<PARAMVALUE NAME="Available Capacity (Blocks)" TYPE="string"><VALUE>3485970432</VALUE>
+</PARAMVALUE>
+<PARAMVALUE NAME="Available Capacity (GBs)" TYPE="string"><VALUE>1662.240</VALUE>
+</PARAMVALUE>
+<PARAMVALUE NAME="Percent Full" TYPE="string"><VALUE>48.140</VALUE>
+</PARAMVALUE>
+<PARAMVALUE NAME="Total Subscribed Capacity (Blocks)" TYPE="string"><VALUE>3231719424</VALUE>
+</PARAMVALUE>
+<PARAMVALUE NAME="Total Subscribed Capacity (GBs)" TYPE="string"><VALUE>1541.004</VALUE>
+</PARAMVALUE>
+<PARAMVALUE NAME="Percent Subscribed" TYPE="string"><VALUE>48.078</VALUE>
+</PARAMVALUE>
+<PARAMVALUE NAME="Oversubscribed by (Blocks)" TYPE="string"><VALUE>0</VALUE>
+</PARAMVALUE>
+<PARAMVALUE NAME="Oversubscribed by (GBs)" TYPE="string"><VALUE>0.000</VALUE>
+</PARAMVALUE>
+<PARAMVALUE NAME="Disks" TYPE="string"><VALUE>&#13;&#10;Bus&#32;0&#32;Enclosure&#32;2&#32;Disk&#32;22&#13;&#10;Bus&#32;0&#32;Enclosure&#32;2&#32;Disk&#32;20&#13;&#10;Bus&#32;1&#32;Enclosure&#32;0&#32;Disk&#32;17&#13;&#10;Bus&#32;1&#32;Enclosure&#32;0&#32;Disk&#32;18&#13;&#10;Bus&#32;1&#32;Enclosure&#32;0&#32;Disk&#32;16&#13;&#10;Bus&#32;0&#32;Enclosure&#32;2&#32;Disk&#32;24&#13;&#10;Bus&#32;0&#32;Enclosure&#32;2&#32;Disk&#32;23&#13;&#10;Bus&#32;0&#32;Enclosure&#32;2&#32;Disk&#32;21</VALUE>
+</PARAMVALUE>
+<PARAMVALUE NAME="LUNs" TYPE="string"><VALUE>52</VALUE>
+</PARAMVALUE>
+</METHODRESPONSE></SIMPLERSP></MESSAGE></CIM>

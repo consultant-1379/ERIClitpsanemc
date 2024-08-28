@@ -1,0 +1,3630 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<CIM CIMVERSION="2.0" DTDVERSION="2.0"><MESSAGE ID="877" PROTOCOLVERSION="1.0"><SIMPLERSP><METHODRESPONSE NAME="ExecuteClientRequest"><PARAMVALUE NAME="CLASSIC CLI" TYPE="string"><VALUE><PARAMVALUE NAME="Total number of initiators" TYPE="string"><VALUE>68</VALUE>
+</PARAMVALUE>
+
+
+<PARAMVALUE NAME="SP Name" TYPE="string"><VALUE>SP A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="SP Port ID" TYPE="uint64"><VALUE>0</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Registered Initiators" TYPE="string"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Logged-In Initiators" TYPE="string"><VALUE>18</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Not Logged-In Initiators" TYPE="string"><VALUE>0</VALUE>
+</PARAMVALUE>
+
+
+<PARAMVALUE NAME="SP Name" TYPE="string"><VALUE>SP A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="SP Port ID" TYPE="uint64"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Registered Initiators" TYPE="string"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Logged-In Initiators" TYPE="string"><VALUE>16</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Not Logged-In Initiators" TYPE="string"><VALUE>0</VALUE>
+</PARAMVALUE>
+
+
+<PARAMVALUE NAME="SP Name" TYPE="string"><VALUE>SP A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="SP Port ID" TYPE="uint64"><VALUE>2</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Registered Initiators" TYPE="string"><VALUE>0</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Logged-In Initiators" TYPE="string"><VALUE>0</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Not Logged-In Initiators" TYPE="string"><VALUE>0</VALUE>
+</PARAMVALUE>
+
+
+<PARAMVALUE NAME="SP Name" TYPE="string"><VALUE>SP A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="SP Port ID" TYPE="uint64"><VALUE>3</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Registered Initiators" TYPE="string"><VALUE>0</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Logged-In Initiators" TYPE="string"><VALUE>0</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Not Logged-In Initiators" TYPE="string"><VALUE>0</VALUE>
+</PARAMVALUE>
+
+
+<PARAMVALUE NAME="SP Name" TYPE="string"><VALUE>SP B</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="SP Port ID" TYPE="uint64"><VALUE>0</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Registered Initiators" TYPE="string"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Logged-In Initiators" TYPE="string"><VALUE>14</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Not Logged-In Initiators" TYPE="string"><VALUE>0</VALUE>
+</PARAMVALUE>
+
+
+<PARAMVALUE NAME="SP Name" TYPE="string"><VALUE>SP B</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="SP Port ID" TYPE="uint64"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Registered Initiators" TYPE="string"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Logged-In Initiators" TYPE="string"><VALUE>20</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Not Logged-In Initiators" TYPE="string"><VALUE>0</VALUE>
+</PARAMVALUE>
+
+
+<PARAMVALUE NAME="SP Name" TYPE="string"><VALUE>SP B</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="SP Port ID" TYPE="uint64"><VALUE>2</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Registered Initiators" TYPE="string"><VALUE>0</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Logged-In Initiators" TYPE="string"><VALUE>0</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Not Logged-In Initiators" TYPE="string"><VALUE>0</VALUE>
+</PARAMVALUE>
+
+
+<PARAMVALUE NAME="SP Name" TYPE="string"><VALUE>SP B</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="SP Port ID" TYPE="uint64"><VALUE>3</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Registered Initiators" TYPE="string"><VALUE>0</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Logged-In Initiators" TYPE="string"><VALUE>0</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Not Logged-In Initiators" TYPE="string"><VALUE>0</VALUE>
+</PARAMVALUE>
+
+
+
+Information about each HBA:
+
+<PARAMVALUE NAME="HBA UID" TYPE="string"><VALUE>50:01:43:80:18:6B:3B:03:50:01:43:80:18:6B:3B:02</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server Name" TYPE="string"><VALUE>50:01:43:80:18:6B:3B:03:50:01:43:80:18:6B:3B:02</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server IP Address" TYPE="string"><VALUE>UNKNOWN</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Model Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Vendor Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Device Driver Name" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+Information about each port of this HBA:
+
+<PARAMVALUE NAME="    SP Name" TYPE="string"><VALUE>SP A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    SP Port ID" TYPE="uint64"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    HBA Devicename" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Trusted" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Logged In" TYPE="string"><VALUE>YES</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Source ID" TYPE="string"><VALUE>791040</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Defined" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Initiator Type" TYPE="string"><VALUE>3</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    StorageGroup Name" TYPE="string"><VALUE>None</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    ArrayCommPath" TYPE="string"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Failover mode" TYPE="string"><VALUE>4</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Unit serial number" TYPE="string"><VALUE>Array</VALUE>
+</PARAMVALUE>
+
+
+
+Information about each HBA:
+
+<PARAMVALUE NAME="HBA UID" TYPE="string"><VALUE>50:01:43:80:18:70:98:01:50:01:43:80:18:70:98:00</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server Name" TYPE="string"><VALUE>50:01:43:80:18:70:98:01:50:01:43:80:18:70:98:00</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server IP Address" TYPE="string"><VALUE>UNKNOWN</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Model Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Vendor Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Device Driver Name" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+Information about each port of this HBA:
+
+<PARAMVALUE NAME="    SP Name" TYPE="string"><VALUE>SP A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    SP Port ID" TYPE="uint64"><VALUE>0</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    HBA Devicename" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Trusted" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Logged In" TYPE="string"><VALUE>YES</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Source ID" TYPE="string"><VALUE>331264</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Defined" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Initiator Type" TYPE="string"><VALUE>3</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    StorageGroup Name" TYPE="string"><VALUE>None</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    ArrayCommPath" TYPE="string"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Failover mode" TYPE="string"><VALUE>4</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Unit serial number" TYPE="string"><VALUE>Array</VALUE>
+</PARAMVALUE>
+
+
+<PARAMVALUE NAME="    SP Name" TYPE="string"><VALUE>SP B</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    SP Port ID" TYPE="uint64"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    HBA Devicename" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Trusted" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Logged In" TYPE="string"><VALUE>YES</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Source ID" TYPE="string"><VALUE>331264</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Defined" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Initiator Type" TYPE="string"><VALUE>3</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    StorageGroup Name" TYPE="string"><VALUE>None</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    ArrayCommPath" TYPE="string"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Failover mode" TYPE="string"><VALUE>4</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Unit serial number" TYPE="string"><VALUE>Array</VALUE>
+</PARAMVALUE>
+
+
+
+Information about each HBA:
+
+<PARAMVALUE NAME="HBA UID" TYPE="string"><VALUE>50:01:43:80:12:0B:33:61:50:01:43:80:12:0B:33:60</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server Name" TYPE="string"><VALUE>50:01:43:80:12:0B:33:61:50:01:43:80:12:0B:33:60</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server IP Address" TYPE="string"><VALUE>UNKNOWN</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Model Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Vendor Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Device Driver Name" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+Information about each port of this HBA:
+
+<PARAMVALUE NAME="    SP Name" TYPE="string"><VALUE>SP A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    SP Port ID" TYPE="uint64"><VALUE>0</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    HBA Devicename" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Trusted" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Logged In" TYPE="string"><VALUE>YES</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Source ID" TYPE="string"><VALUE>200960</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Defined" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Initiator Type" TYPE="string"><VALUE>3</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    StorageGroup Name" TYPE="string"><VALUE>None</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    ArrayCommPath" TYPE="string"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Failover mode" TYPE="string"><VALUE>4</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Unit serial number" TYPE="string"><VALUE>Array</VALUE>
+</PARAMVALUE>
+
+
+
+Information about each HBA:
+
+<PARAMVALUE NAME="HBA UID" TYPE="string"><VALUE>50:01:43:80:18:70:98:03:50:01:43:80:18:70:98:02</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server Name" TYPE="string"><VALUE>50:01:43:80:18:70:98:03:50:01:43:80:18:70:98:02</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server IP Address" TYPE="string"><VALUE>UNKNOWN</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Model Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Vendor Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Device Driver Name" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+Information about each port of this HBA:
+
+<PARAMVALUE NAME="    SP Name" TYPE="string"><VALUE>SP A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    SP Port ID" TYPE="uint64"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    HBA Devicename" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Trusted" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Logged In" TYPE="string"><VALUE>YES</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Source ID" TYPE="string"><VALUE>396800</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Defined" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Initiator Type" TYPE="string"><VALUE>3</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    StorageGroup Name" TYPE="string"><VALUE>None</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    ArrayCommPath" TYPE="string"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Failover mode" TYPE="string"><VALUE>4</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Unit serial number" TYPE="string"><VALUE>Array</VALUE>
+</PARAMVALUE>
+
+
+<PARAMVALUE NAME="    SP Name" TYPE="string"><VALUE>SP B</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    SP Port ID" TYPE="uint64"><VALUE>0</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    HBA Devicename" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Trusted" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Logged In" TYPE="string"><VALUE>YES</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Source ID" TYPE="string"><VALUE>396800</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Defined" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Initiator Type" TYPE="string"><VALUE>3</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    StorageGroup Name" TYPE="string"><VALUE>None</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    ArrayCommPath" TYPE="string"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Failover mode" TYPE="string"><VALUE>4</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Unit serial number" TYPE="string"><VALUE>Array</VALUE>
+</PARAMVALUE>
+
+
+
+Information about each HBA:
+
+<PARAMVALUE NAME="HBA UID" TYPE="string"><VALUE>50:01:43:80:12:0B:33:63:50:01:43:80:12:0B:33:62</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server Name" TYPE="string"><VALUE>50:01:43:80:12:0B:33:63:50:01:43:80:12:0B:33:62</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server IP Address" TYPE="string"><VALUE>UNKNOWN</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Model Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Vendor Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Device Driver Name" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+Information about each port of this HBA:
+
+<PARAMVALUE NAME="    SP Name" TYPE="string"><VALUE>SP B</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    SP Port ID" TYPE="uint64"><VALUE>0</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    HBA Devicename" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Trusted" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Logged In" TYPE="string"><VALUE>YES</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Source ID" TYPE="string"><VALUE>266496</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Defined" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Initiator Type" TYPE="string"><VALUE>3</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    StorageGroup Name" TYPE="string"><VALUE>None</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    ArrayCommPath" TYPE="string"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Failover mode" TYPE="string"><VALUE>4</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Unit serial number" TYPE="string"><VALUE>Array</VALUE>
+</PARAMVALUE>
+
+
+
+Information about each HBA:
+
+<PARAMVALUE NAME="HBA UID" TYPE="string"><VALUE>50:01:43:80:18:6B:3B:0D:50:01:43:80:18:6B:3B:0C</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server Name" TYPE="string"><VALUE>50:01:43:80:18:6B:3B:0D:50:01:43:80:18:6B:3B:0C</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server IP Address" TYPE="string"><VALUE>UNKNOWN</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Model Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Vendor Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Device Driver Name" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+Information about each port of this HBA:
+
+<PARAMVALUE NAME="    SP Name" TYPE="string"><VALUE>SP B</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    SP Port ID" TYPE="uint64"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    HBA Devicename" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Trusted" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Logged In" TYPE="string"><VALUE>YES</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Source ID" TYPE="string"><VALUE>725760</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Defined" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Initiator Type" TYPE="string"><VALUE>3</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    StorageGroup Name" TYPE="string"><VALUE>None</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    ArrayCommPath" TYPE="string"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Failover mode" TYPE="string"><VALUE>4</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Unit serial number" TYPE="string"><VALUE>Array</VALUE>
+</PARAMVALUE>
+
+
+
+Information about each HBA:
+
+<PARAMVALUE NAME="HBA UID" TYPE="string"><VALUE>50:01:43:80:18:6B:3B:0F:50:01:43:80:18:6B:3B:0E</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server Name" TYPE="string"><VALUE>50:01:43:80:18:6B:3B:0F:50:01:43:80:18:6B:3B:0E</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server IP Address" TYPE="string"><VALUE>UNKNOWN</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Model Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Vendor Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Device Driver Name" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+Information about each port of this HBA:
+
+<PARAMVALUE NAME="    SP Name" TYPE="string"><VALUE>SP A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    SP Port ID" TYPE="uint64"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    HBA Devicename" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Trusted" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Logged In" TYPE="string"><VALUE>YES</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Source ID" TYPE="string"><VALUE>791296</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Defined" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Initiator Type" TYPE="string"><VALUE>3</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    StorageGroup Name" TYPE="string"><VALUE>None</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    ArrayCommPath" TYPE="string"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Failover mode" TYPE="string"><VALUE>4</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Unit serial number" TYPE="string"><VALUE>Array</VALUE>
+</PARAMVALUE>
+
+
+
+Information about each HBA:
+
+<PARAMVALUE NAME="HBA UID" TYPE="string"><VALUE>50:01:43:80:16:7D:C4:1D:50:01:43:80:16:7D:C4:1C</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server Name" TYPE="string"><VALUE>50:01:43:80:16:7D:C4:1D:50:01:43:80:16:7D:C4:1C</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server IP Address" TYPE="string"><VALUE>UNKNOWN</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Model Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Vendor Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Device Driver Name" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+Information about each port of this HBA:
+
+<PARAMVALUE NAME="    SP Name" TYPE="string"><VALUE>SP B</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    SP Port ID" TYPE="uint64"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    HBA Devicename" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Trusted" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Logged In" TYPE="string"><VALUE>YES</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Source ID" TYPE="string"><VALUE>1445376</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Defined" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Initiator Type" TYPE="string"><VALUE>3</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    StorageGroup Name" TYPE="string"><VALUE>None</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    ArrayCommPath" TYPE="string"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Failover mode" TYPE="string"><VALUE>4</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Unit serial number" TYPE="string"><VALUE>Array</VALUE>
+</PARAMVALUE>
+
+
+
+Information about each HBA:
+
+<PARAMVALUE NAME="HBA UID" TYPE="string"><VALUE>50:01:43:80:16:7D:C4:1F:50:01:43:80:16:7D:C4:1E</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server Name" TYPE="string"><VALUE>50:01:43:80:16:7D:C4:1F:50:01:43:80:16:7D:C4:1E</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server IP Address" TYPE="string"><VALUE>UNKNOWN</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Model Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Vendor Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Device Driver Name" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+Information about each port of this HBA:
+
+<PARAMVALUE NAME="    SP Name" TYPE="string"><VALUE>SP A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    SP Port ID" TYPE="uint64"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    HBA Devicename" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Trusted" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Logged In" TYPE="string"><VALUE>YES</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Source ID" TYPE="string"><VALUE>1445376</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Defined" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Initiator Type" TYPE="string"><VALUE>3</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    StorageGroup Name" TYPE="string"><VALUE>None</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    ArrayCommPath" TYPE="string"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Failover mode" TYPE="string"><VALUE>4</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Unit serial number" TYPE="string"><VALUE>Array</VALUE>
+</PARAMVALUE>
+
+
+
+Information about each HBA:
+
+<PARAMVALUE NAME="HBA UID" TYPE="string"><VALUE>50:01:43:80:12:0A:AA:E9:50:01:43:80:12:0A:AA:E8</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server Name" TYPE="string"><VALUE>50:01:43:80:12:0A:AA:E9:50:01:43:80:12:0A:AA:E8</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server IP Address" TYPE="string"><VALUE>UNKNOWN</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Model Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Vendor Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Device Driver Name" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+Information about each port of this HBA:
+
+<PARAMVALUE NAME="    SP Name" TYPE="string"><VALUE>SP A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    SP Port ID" TYPE="uint64"><VALUE>0</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    HBA Devicename" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Trusted" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Logged In" TYPE="string"><VALUE>YES</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Source ID" TYPE="string"><VALUE>329728</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Defined" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Initiator Type" TYPE="string"><VALUE>3</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    StorageGroup Name" TYPE="string"><VALUE>None</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    ArrayCommPath" TYPE="string"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Failover mode" TYPE="string"><VALUE>4</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Unit serial number" TYPE="string"><VALUE>Array</VALUE>
+</PARAMVALUE>
+
+
+<PARAMVALUE NAME="    SP Name" TYPE="string"><VALUE>SP B</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    SP Port ID" TYPE="uint64"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    HBA Devicename" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Trusted" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Logged In" TYPE="string"><VALUE>YES</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Source ID" TYPE="string"><VALUE>329728</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Defined" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Initiator Type" TYPE="string"><VALUE>3</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    StorageGroup Name" TYPE="string"><VALUE>None</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    ArrayCommPath" TYPE="string"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Failover mode" TYPE="string"><VALUE>4</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Unit serial number" TYPE="string"><VALUE>Array</VALUE>
+</PARAMVALUE>
+
+
+
+Information about each HBA:
+
+<PARAMVALUE NAME="HBA UID" TYPE="string"><VALUE>50:01:43:80:12:0A:A7:89:50:01:43:80:12:0A:A7:88</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server Name" TYPE="string"><VALUE>50:01:43:80:12:0A:A7:89:50:01:43:80:12:0A:A7:88</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server IP Address" TYPE="string"><VALUE>UNKNOWN</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Model Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Vendor Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Device Driver Name" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+Information about each port of this HBA:
+
+<PARAMVALUE NAME="    SP Name" TYPE="string"><VALUE>SP A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    SP Port ID" TYPE="uint64"><VALUE>0</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    HBA Devicename" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Trusted" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Logged In" TYPE="string"><VALUE>YES</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Source ID" TYPE="string"><VALUE>329472</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Defined" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Initiator Type" TYPE="string"><VALUE>3</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    StorageGroup Name" TYPE="string"><VALUE>None</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    ArrayCommPath" TYPE="string"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Failover mode" TYPE="string"><VALUE>4</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Unit serial number" TYPE="string"><VALUE>Array</VALUE>
+</PARAMVALUE>
+
+
+<PARAMVALUE NAME="    SP Name" TYPE="string"><VALUE>SP B</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    SP Port ID" TYPE="uint64"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    HBA Devicename" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Trusted" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Logged In" TYPE="string"><VALUE>YES</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Source ID" TYPE="string"><VALUE>329472</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Defined" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Initiator Type" TYPE="string"><VALUE>3</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    StorageGroup Name" TYPE="string"><VALUE>None</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    ArrayCommPath" TYPE="string"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Failover mode" TYPE="string"><VALUE>4</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Unit serial number" TYPE="string"><VALUE>Array</VALUE>
+</PARAMVALUE>
+
+
+
+Information about each HBA:
+
+<PARAMVALUE NAME="HBA UID" TYPE="string"><VALUE>50:01:43:80:12:0A:AA:EB:50:01:43:80:12:0A:AA:EA</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server Name" TYPE="string"><VALUE>50:01:43:80:12:0A:AA:EB:50:01:43:80:12:0A:AA:EA</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server IP Address" TYPE="string"><VALUE>UNKNOWN</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Model Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Vendor Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Device Driver Name" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+Information about each port of this HBA:
+
+<PARAMVALUE NAME="    SP Name" TYPE="string"><VALUE>SP A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    SP Port ID" TYPE="uint64"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    HBA Devicename" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Trusted" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Logged In" TYPE="string"><VALUE>YES</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Source ID" TYPE="string"><VALUE>395264</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Defined" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Initiator Type" TYPE="string"><VALUE>3</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    StorageGroup Name" TYPE="string"><VALUE>None</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    ArrayCommPath" TYPE="string"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Failover mode" TYPE="string"><VALUE>4</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Unit serial number" TYPE="string"><VALUE>Array</VALUE>
+</PARAMVALUE>
+
+
+<PARAMVALUE NAME="    SP Name" TYPE="string"><VALUE>SP B</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    SP Port ID" TYPE="uint64"><VALUE>0</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    HBA Devicename" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Trusted" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Logged In" TYPE="string"><VALUE>YES</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Source ID" TYPE="string"><VALUE>395264</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Defined" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Initiator Type" TYPE="string"><VALUE>3</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    StorageGroup Name" TYPE="string"><VALUE>None</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    ArrayCommPath" TYPE="string"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Failover mode" TYPE="string"><VALUE>4</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Unit serial number" TYPE="string"><VALUE>Array</VALUE>
+</PARAMVALUE>
+
+
+
+Information about each HBA:
+
+<PARAMVALUE NAME="HBA UID" TYPE="string"><VALUE>50:01:43:80:04:BF:48:19:50:01:43:80:04:BF:48:18</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server Name" TYPE="string"><VALUE>50:01:43:80:04:BF:48:19:50:01:43:80:04:BF:48:18</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server IP Address" TYPE="string"><VALUE>UNKNOWN</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Model Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Vendor Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Device Driver Name" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+Information about each port of this HBA:
+
+<PARAMVALUE NAME="    SP Name" TYPE="string"><VALUE>SP A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    SP Port ID" TYPE="uint64"><VALUE>0</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    HBA Devicename" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Trusted" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Logged In" TYPE="string"><VALUE>YES</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Source ID" TYPE="string"><VALUE>328192</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Defined" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Initiator Type" TYPE="string"><VALUE>3</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    StorageGroup Name" TYPE="string"><VALUE>None</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    ArrayCommPath" TYPE="string"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Failover mode" TYPE="string"><VALUE>4</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Unit serial number" TYPE="string"><VALUE>Array</VALUE>
+</PARAMVALUE>
+
+
+<PARAMVALUE NAME="    SP Name" TYPE="string"><VALUE>SP B</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    SP Port ID" TYPE="uint64"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    HBA Devicename" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Trusted" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Logged In" TYPE="string"><VALUE>YES</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Source ID" TYPE="string"><VALUE>328192</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Defined" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Initiator Type" TYPE="string"><VALUE>3</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    StorageGroup Name" TYPE="string"><VALUE>None</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    ArrayCommPath" TYPE="string"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Failover mode" TYPE="string"><VALUE>4</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Unit serial number" TYPE="string"><VALUE>Array</VALUE>
+</PARAMVALUE>
+
+
+
+Information about each HBA:
+
+<PARAMVALUE NAME="HBA UID" TYPE="string"><VALUE>50:01:43:80:12:0A:A7:8B:50:01:43:80:12:0A:A7:8A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server Name" TYPE="string"><VALUE>50:01:43:80:12:0A:A7:8B:50:01:43:80:12:0A:A7:8A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server IP Address" TYPE="string"><VALUE>UNKNOWN</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Model Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Vendor Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Device Driver Name" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+Information about each port of this HBA:
+
+<PARAMVALUE NAME="    SP Name" TYPE="string"><VALUE>SP A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    SP Port ID" TYPE="uint64"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    HBA Devicename" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Trusted" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Logged In" TYPE="string"><VALUE>YES</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Source ID" TYPE="string"><VALUE>395008</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Defined" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Initiator Type" TYPE="string"><VALUE>3</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    StorageGroup Name" TYPE="string"><VALUE>None</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    ArrayCommPath" TYPE="string"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Failover mode" TYPE="string"><VALUE>4</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Unit serial number" TYPE="string"><VALUE>Array</VALUE>
+</PARAMVALUE>
+
+
+<PARAMVALUE NAME="    SP Name" TYPE="string"><VALUE>SP B</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    SP Port ID" TYPE="uint64"><VALUE>0</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    HBA Devicename" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Trusted" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Logged In" TYPE="string"><VALUE>YES</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Source ID" TYPE="string"><VALUE>395008</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Defined" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Initiator Type" TYPE="string"><VALUE>3</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    StorageGroup Name" TYPE="string"><VALUE>None</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    ArrayCommPath" TYPE="string"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Failover mode" TYPE="string"><VALUE>4</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Unit serial number" TYPE="string"><VALUE>Array</VALUE>
+</PARAMVALUE>
+
+
+
+Information about each HBA:
+
+<PARAMVALUE NAME="HBA UID" TYPE="string"><VALUE>50:01:43:80:04:BF:48:1B:50:01:43:80:04:BF:48:1A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server Name" TYPE="string"><VALUE>50:01:43:80:04:BF:48:1B:50:01:43:80:04:BF:48:1A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server IP Address" TYPE="string"><VALUE>UNKNOWN</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Model Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Vendor Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Device Driver Name" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+Information about each port of this HBA:
+
+<PARAMVALUE NAME="    SP Name" TYPE="string"><VALUE>SP A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    SP Port ID" TYPE="uint64"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    HBA Devicename" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Trusted" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Logged In" TYPE="string"><VALUE>YES</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Source ID" TYPE="string"><VALUE>393728</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Defined" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Initiator Type" TYPE="string"><VALUE>3</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    StorageGroup Name" TYPE="string"><VALUE>None</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    ArrayCommPath" TYPE="string"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Failover mode" TYPE="string"><VALUE>4</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Unit serial number" TYPE="string"><VALUE>Array</VALUE>
+</PARAMVALUE>
+
+
+<PARAMVALUE NAME="    SP Name" TYPE="string"><VALUE>SP B</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    SP Port ID" TYPE="uint64"><VALUE>0</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    HBA Devicename" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Trusted" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Logged In" TYPE="string"><VALUE>YES</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Source ID" TYPE="string"><VALUE>393728</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Defined" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Initiator Type" TYPE="string"><VALUE>3</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    StorageGroup Name" TYPE="string"><VALUE>None</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    ArrayCommPath" TYPE="string"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Failover mode" TYPE="string"><VALUE>4</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Unit serial number" TYPE="string"><VALUE>Array</VALUE>
+</PARAMVALUE>
+
+
+
+Information about each HBA:
+
+<PARAMVALUE NAME="HBA UID" TYPE="string"><VALUE>50:01:43:80:26:EE:FB:99:50:01:43:80:26:EE:FB:98</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server Name" TYPE="string"><VALUE>50:01:43:80:26:EE:FB:99:50:01:43:80:26:EE:FB:98</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server IP Address" TYPE="string"><VALUE>UNKNOWN</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Model Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Vendor Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Device Driver Name" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+Information about each port of this HBA:
+
+<PARAMVALUE NAME="    SP Name" TYPE="string"><VALUE>SP A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    SP Port ID" TYPE="uint64"><VALUE>0</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    HBA Devicename" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Trusted" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Logged In" TYPE="string"><VALUE>YES</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Source ID" TYPE="string"><VALUE>1444864</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Defined" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Initiator Type" TYPE="string"><VALUE>3</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    StorageGroup Name" TYPE="string"><VALUE>None</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    ArrayCommPath" TYPE="string"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Failover mode" TYPE="string"><VALUE>4</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Unit serial number" TYPE="string"><VALUE>Array</VALUE>
+</PARAMVALUE>
+
+
+<PARAMVALUE NAME="    SP Name" TYPE="string"><VALUE>SP B</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    SP Port ID" TYPE="uint64"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    HBA Devicename" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Trusted" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Logged In" TYPE="string"><VALUE>YES</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Source ID" TYPE="string"><VALUE>1444864</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Defined" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Initiator Type" TYPE="string"><VALUE>3</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    StorageGroup Name" TYPE="string"><VALUE>None</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    ArrayCommPath" TYPE="string"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Failover mode" TYPE="string"><VALUE>4</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Unit serial number" TYPE="string"><VALUE>Array</VALUE>
+</PARAMVALUE>
+
+
+
+Information about each HBA:
+
+<PARAMVALUE NAME="HBA UID" TYPE="string"><VALUE>50:01:43:80:26:EE:EA:8D:50:01:43:80:26:EE:EA:8C</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server Name" TYPE="string"><VALUE>50:01:43:80:26:EE:EA:8D:50:01:43:80:26:EE:EA:8C</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server IP Address" TYPE="string"><VALUE>UNKNOWN</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Model Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Vendor Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Device Driver Name" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+Information about each port of this HBA:
+
+<PARAMVALUE NAME="    SP Name" TYPE="string"><VALUE>SP A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    SP Port ID" TYPE="uint64"><VALUE>0</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    HBA Devicename" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Trusted" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Logged In" TYPE="string"><VALUE>YES</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Source ID" TYPE="string"><VALUE>1444608</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Defined" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Initiator Type" TYPE="string"><VALUE>3</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    StorageGroup Name" TYPE="string"><VALUE>None</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    ArrayCommPath" TYPE="string"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Failover mode" TYPE="string"><VALUE>4</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Unit serial number" TYPE="string"><VALUE>Array</VALUE>
+</PARAMVALUE>
+
+
+<PARAMVALUE NAME="    SP Name" TYPE="string"><VALUE>SP B</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    SP Port ID" TYPE="uint64"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    HBA Devicename" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Trusted" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Logged In" TYPE="string"><VALUE>YES</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Source ID" TYPE="string"><VALUE>1444608</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Defined" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Initiator Type" TYPE="string"><VALUE>3</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    StorageGroup Name" TYPE="string"><VALUE>None</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    ArrayCommPath" TYPE="string"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Failover mode" TYPE="string"><VALUE>4</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Unit serial number" TYPE="string"><VALUE>Array</VALUE>
+</PARAMVALUE>
+
+
+
+Information about each HBA:
+
+<PARAMVALUE NAME="HBA UID" TYPE="string"><VALUE>50:01:43:80:06:2D:08:4D:50:01:43:80:06:2D:08:4C</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server Name" TYPE="string"><VALUE>50:01:43:80:06:2D:08:4D:50:01:43:80:06:2D:08:4C</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server IP Address" TYPE="string"><VALUE>UNKNOWN</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Model Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Vendor Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Device Driver Name" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+Information about each port of this HBA:
+
+<PARAMVALUE NAME="    SP Name" TYPE="string"><VALUE>SP A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    SP Port ID" TYPE="uint64"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    HBA Devicename" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Trusted" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Logged In" TYPE="string"><VALUE>YES</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Source ID" TYPE="string"><VALUE>1447680</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Defined" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Initiator Type" TYPE="string"><VALUE>3</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    StorageGroup Name" TYPE="string"><VALUE>None</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    ArrayCommPath" TYPE="string"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Failover mode" TYPE="string"><VALUE>4</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Unit serial number" TYPE="string"><VALUE>Array</VALUE>
+</PARAMVALUE>
+
+
+<PARAMVALUE NAME="    SP Name" TYPE="string"><VALUE>SP B</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    SP Port ID" TYPE="uint64"><VALUE>0</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    HBA Devicename" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Trusted" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Logged In" TYPE="string"><VALUE>YES</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Source ID" TYPE="string"><VALUE>1447680</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Defined" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Initiator Type" TYPE="string"><VALUE>3</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    StorageGroup Name" TYPE="string"><VALUE>None</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    ArrayCommPath" TYPE="string"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Failover mode" TYPE="string"><VALUE>4</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Unit serial number" TYPE="string"><VALUE>Array</VALUE>
+</PARAMVALUE>
+
+
+
+Information about each HBA:
+
+<PARAMVALUE NAME="HBA UID" TYPE="string"><VALUE>50:01:43:80:06:2D:08:4F:50:01:43:80:06:2D:08:4E</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server Name" TYPE="string"><VALUE>50:01:43:80:06:2D:08:4F:50:01:43:80:06:2D:08:4E</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server IP Address" TYPE="string"><VALUE>UNKNOWN</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Model Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Vendor Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Device Driver Name" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+Information about each port of this HBA:
+
+<PARAMVALUE NAME="    SP Name" TYPE="string"><VALUE>SP A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    SP Port ID" TYPE="uint64"><VALUE>0</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    HBA Devicename" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Trusted" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Logged In" TYPE="string"><VALUE>YES</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Source ID" TYPE="string"><VALUE>1447680</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Defined" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Initiator Type" TYPE="string"><VALUE>3</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    StorageGroup Name" TYPE="string"><VALUE>None</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    ArrayCommPath" TYPE="string"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Failover mode" TYPE="string"><VALUE>4</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Unit serial number" TYPE="string"><VALUE>Array</VALUE>
+</PARAMVALUE>
+
+
+<PARAMVALUE NAME="    SP Name" TYPE="string"><VALUE>SP B</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    SP Port ID" TYPE="uint64"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    HBA Devicename" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Trusted" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Logged In" TYPE="string"><VALUE>YES</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Source ID" TYPE="string"><VALUE>1447680</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Defined" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Initiator Type" TYPE="string"><VALUE>3</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    StorageGroup Name" TYPE="string"><VALUE>None</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    ArrayCommPath" TYPE="string"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Failover mode" TYPE="string"><VALUE>4</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Unit serial number" TYPE="string"><VALUE>Array</VALUE>
+</PARAMVALUE>
+
+
+
+Information about each HBA:
+
+<PARAMVALUE NAME="HBA UID" TYPE="string"><VALUE>50:01:43:80:04:BF:57:59:50:01:43:80:04:BF:57:58</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server Name" TYPE="string"><VALUE>50:01:43:80:04:BF:57:59:50:01:43:80:04:BF:57:58</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server IP Address" TYPE="string"><VALUE>UNKNOWN</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Model Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Vendor Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Device Driver Name" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+Information about each port of this HBA:
+
+<PARAMVALUE NAME="    SP Name" TYPE="string"><VALUE>SP A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    SP Port ID" TYPE="uint64"><VALUE>0</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    HBA Devicename" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Trusted" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Logged In" TYPE="string"><VALUE>YES</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Source ID" TYPE="string"><VALUE>328704</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Defined" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Initiator Type" TYPE="string"><VALUE>3</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    StorageGroup Name" TYPE="string"><VALUE>None</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    ArrayCommPath" TYPE="string"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Failover mode" TYPE="string"><VALUE>4</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Unit serial number" TYPE="string"><VALUE>Array</VALUE>
+</PARAMVALUE>
+
+
+<PARAMVALUE NAME="    SP Name" TYPE="string"><VALUE>SP B</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    SP Port ID" TYPE="uint64"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    HBA Devicename" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Trusted" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Logged In" TYPE="string"><VALUE>YES</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Source ID" TYPE="string"><VALUE>328704</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Defined" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Initiator Type" TYPE="string"><VALUE>3</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    StorageGroup Name" TYPE="string"><VALUE>None</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    ArrayCommPath" TYPE="string"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Failover mode" TYPE="string"><VALUE>4</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Unit serial number" TYPE="string"><VALUE>Array</VALUE>
+</PARAMVALUE>
+
+
+
+Information about each HBA:
+
+<PARAMVALUE NAME="HBA UID" TYPE="string"><VALUE>50:01:43:80:18:70:AE:B5:50:01:43:80:18:70:AE:B4</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server Name" TYPE="string"><VALUE>50:01:43:80:18:70:AE:B5:50:01:43:80:18:70:AE:B4</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server IP Address" TYPE="string"><VALUE>UNKNOWN</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Model Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Vendor Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Device Driver Name" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+Information about each port of this HBA:
+
+<PARAMVALUE NAME="    SP Name" TYPE="string"><VALUE>SP A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    SP Port ID" TYPE="uint64"><VALUE>0</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    HBA Devicename" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Trusted" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Logged In" TYPE="string"><VALUE>YES</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Source ID" TYPE="string"><VALUE>331008</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Defined" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Initiator Type" TYPE="string"><VALUE>3</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    StorageGroup Name" TYPE="string"><VALUE>None</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    ArrayCommPath" TYPE="string"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Failover mode" TYPE="string"><VALUE>4</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Unit serial number" TYPE="string"><VALUE>Array</VALUE>
+</PARAMVALUE>
+
+
+<PARAMVALUE NAME="    SP Name" TYPE="string"><VALUE>SP B</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    SP Port ID" TYPE="uint64"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    HBA Devicename" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Trusted" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Logged In" TYPE="string"><VALUE>YES</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Source ID" TYPE="string"><VALUE>331008</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Defined" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Initiator Type" TYPE="string"><VALUE>3</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    StorageGroup Name" TYPE="string"><VALUE>None</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    ArrayCommPath" TYPE="string"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Failover mode" TYPE="string"><VALUE>4</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Unit serial number" TYPE="string"><VALUE>Array</VALUE>
+</PARAMVALUE>
+
+
+
+Information about each HBA:
+
+<PARAMVALUE NAME="HBA UID" TYPE="string"><VALUE>50:01:43:80:04:BF:57:5B:50:01:43:80:04:BF:57:5A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server Name" TYPE="string"><VALUE>50:01:43:80:04:BF:57:5B:50:01:43:80:04:BF:57:5A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server IP Address" TYPE="string"><VALUE>UNKNOWN</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Model Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Vendor Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Device Driver Name" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+Information about each port of this HBA:
+
+<PARAMVALUE NAME="    SP Name" TYPE="string"><VALUE>SP A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    SP Port ID" TYPE="uint64"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    HBA Devicename" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Trusted" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Logged In" TYPE="string"><VALUE>YES</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Source ID" TYPE="string"><VALUE>394240</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Defined" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Initiator Type" TYPE="string"><VALUE>3</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    StorageGroup Name" TYPE="string"><VALUE>None</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    ArrayCommPath" TYPE="string"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Failover mode" TYPE="string"><VALUE>4</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Unit serial number" TYPE="string"><VALUE>Array</VALUE>
+</PARAMVALUE>
+
+
+<PARAMVALUE NAME="    SP Name" TYPE="string"><VALUE>SP B</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    SP Port ID" TYPE="uint64"><VALUE>0</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    HBA Devicename" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Trusted" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Logged In" TYPE="string"><VALUE>YES</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Source ID" TYPE="string"><VALUE>394240</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Defined" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Initiator Type" TYPE="string"><VALUE>3</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    StorageGroup Name" TYPE="string"><VALUE>None</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    ArrayCommPath" TYPE="string"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Failover mode" TYPE="string"><VALUE>4</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Unit serial number" TYPE="string"><VALUE>Array</VALUE>
+</PARAMVALUE>
+
+
+
+Information about each HBA:
+
+<PARAMVALUE NAME="HBA UID" TYPE="string"><VALUE>50:01:43:80:18:70:AE:B7:50:01:43:80:18:70:AE:B6</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server Name" TYPE="string"><VALUE>50:01:43:80:18:70:AE:B7:50:01:43:80:18:70:AE:B6</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server IP Address" TYPE="string"><VALUE>UNKNOWN</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Model Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Vendor Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Device Driver Name" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+Information about each port of this HBA:
+
+<PARAMVALUE NAME="    SP Name" TYPE="string"><VALUE>SP A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    SP Port ID" TYPE="uint64"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    HBA Devicename" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Trusted" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Logged In" TYPE="string"><VALUE>YES</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Source ID" TYPE="string"><VALUE>396544</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Defined" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Initiator Type" TYPE="string"><VALUE>3</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    StorageGroup Name" TYPE="string"><VALUE>None</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    ArrayCommPath" TYPE="string"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Failover mode" TYPE="string"><VALUE>4</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Unit serial number" TYPE="string"><VALUE>Array</VALUE>
+</PARAMVALUE>
+
+
+<PARAMVALUE NAME="    SP Name" TYPE="string"><VALUE>SP B</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    SP Port ID" TYPE="uint64"><VALUE>0</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    HBA Devicename" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Trusted" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Logged In" TYPE="string"><VALUE>YES</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Source ID" TYPE="string"><VALUE>396544</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Defined" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Initiator Type" TYPE="string"><VALUE>3</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    StorageGroup Name" TYPE="string"><VALUE>None</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    ArrayCommPath" TYPE="string"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Failover mode" TYPE="string"><VALUE>4</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Unit serial number" TYPE="string"><VALUE>Array</VALUE>
+</PARAMVALUE>
+
+
+
+Information about each HBA:
+
+<PARAMVALUE NAME="HBA UID" TYPE="string"><VALUE>50:01:43:80:18:6B:36:BD:50:01:43:80:18:6B:36:BC</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server Name" TYPE="string"><VALUE>50:01:43:80:18:6B:36:BD:50:01:43:80:18:6B:36:BC</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server IP Address" TYPE="string"><VALUE>UNKNOWN</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Model Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Vendor Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Device Driver Name" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+Information about each port of this HBA:
+
+<PARAMVALUE NAME="    SP Name" TYPE="string"><VALUE>SP B</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    SP Port ID" TYPE="uint64"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    HBA Devicename" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Trusted" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Logged In" TYPE="string"><VALUE>YES</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Source ID" TYPE="string"><VALUE>726272</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Defined" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Initiator Type" TYPE="string"><VALUE>3</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    StorageGroup Name" TYPE="string"><VALUE>None</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    ArrayCommPath" TYPE="string"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Failover mode" TYPE="string"><VALUE>4</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Unit serial number" TYPE="string"><VALUE>Array</VALUE>
+</PARAMVALUE>
+
+
+
+Information about each HBA:
+
+<PARAMVALUE NAME="HBA UID" TYPE="string"><VALUE>50:01:43:80:18:6B:36:BF:50:01:43:80:18:6B:36:BE</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server Name" TYPE="string"><VALUE>50:01:43:80:18:6B:36:BF:50:01:43:80:18:6B:36:BE</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server IP Address" TYPE="string"><VALUE>UNKNOWN</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Model Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Vendor Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Device Driver Name" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+Information about each port of this HBA:
+
+<PARAMVALUE NAME="    SP Name" TYPE="string"><VALUE>SP A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    SP Port ID" TYPE="uint64"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    HBA Devicename" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Trusted" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Logged In" TYPE="string"><VALUE>YES</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Source ID" TYPE="string"><VALUE>791808</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Defined" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Initiator Type" TYPE="string"><VALUE>3</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    StorageGroup Name" TYPE="string"><VALUE>None</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    ArrayCommPath" TYPE="string"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Failover mode" TYPE="string"><VALUE>4</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Unit serial number" TYPE="string"><VALUE>Array</VALUE>
+</PARAMVALUE>
+
+
+
+Information about each HBA:
+
+<PARAMVALUE NAME="HBA UID" TYPE="string"><VALUE>50:01:43:80:06:2D:D8:8D:50:01:43:80:06:2D:D8:8C</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server Name" TYPE="string"><VALUE>50:01:43:80:06:2D:D8:8D:50:01:43:80:06:2D:D8:8C</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server IP Address" TYPE="string"><VALUE>UNKNOWN</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Model Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Vendor Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Device Driver Name" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+Information about each port of this HBA:
+
+<PARAMVALUE NAME="    SP Name" TYPE="string"><VALUE>SP A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    SP Port ID" TYPE="uint64"><VALUE>0</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    HBA Devicename" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Trusted" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Logged In" TYPE="string"><VALUE>YES</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Source ID" TYPE="string"><VALUE>333056</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Defined" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Initiator Type" TYPE="string"><VALUE>3</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    StorageGroup Name" TYPE="string"><VALUE>None</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    ArrayCommPath" TYPE="string"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Failover mode" TYPE="string"><VALUE>4</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Unit serial number" TYPE="string"><VALUE>Array</VALUE>
+</PARAMVALUE>
+
+
+<PARAMVALUE NAME="    SP Name" TYPE="string"><VALUE>SP B</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    SP Port ID" TYPE="uint64"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    HBA Devicename" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Trusted" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Logged In" TYPE="string"><VALUE>YES</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Source ID" TYPE="string"><VALUE>333056</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Defined" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Initiator Type" TYPE="string"><VALUE>3</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    StorageGroup Name" TYPE="string"><VALUE>None</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    ArrayCommPath" TYPE="string"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Failover mode" TYPE="string"><VALUE>4</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Unit serial number" TYPE="string"><VALUE>Array</VALUE>
+</PARAMVALUE>
+
+
+
+Information about each HBA:
+
+<PARAMVALUE NAME="HBA UID" TYPE="string"><VALUE>50:01:43:80:06:36:F7:91:50:01:43:80:06:36:F7:90</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server Name" TYPE="string"><VALUE>50:01:43:80:06:36:F7:91:50:01:43:80:06:36:F7:90</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server IP Address" TYPE="string"><VALUE>UNKNOWN</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Model Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Vendor Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Device Driver Name" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+Information about each port of this HBA:
+
+<PARAMVALUE NAME="    SP Name" TYPE="string"><VALUE>SP A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    SP Port ID" TYPE="uint64"><VALUE>0</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    HBA Devicename" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Trusted" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Logged In" TYPE="string"><VALUE>YES</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Source ID" TYPE="string"><VALUE>333312</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Defined" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Initiator Type" TYPE="string"><VALUE>3</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    StorageGroup Name" TYPE="string"><VALUE>None</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    ArrayCommPath" TYPE="string"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Failover mode" TYPE="string"><VALUE>4</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Unit serial number" TYPE="string"><VALUE>Array</VALUE>
+</PARAMVALUE>
+
+
+<PARAMVALUE NAME="    SP Name" TYPE="string"><VALUE>SP B</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    SP Port ID" TYPE="uint64"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    HBA Devicename" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Trusted" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Logged In" TYPE="string"><VALUE>YES</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Source ID" TYPE="string"><VALUE>333312</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Defined" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Initiator Type" TYPE="string"><VALUE>3</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    StorageGroup Name" TYPE="string"><VALUE>None</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    ArrayCommPath" TYPE="string"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Failover mode" TYPE="string"><VALUE>4</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Unit serial number" TYPE="string"><VALUE>Array</VALUE>
+</PARAMVALUE>
+
+
+
+Information about each HBA:
+
+<PARAMVALUE NAME="HBA UID" TYPE="string"><VALUE>50:01:43:80:06:36:F7:93:50:01:43:80:06:36:F7:92</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server Name" TYPE="string"><VALUE>50:01:43:80:06:36:F7:93:50:01:43:80:06:36:F7:92</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server IP Address" TYPE="string"><VALUE>UNKNOWN</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Model Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Vendor Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Device Driver Name" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+Information about each port of this HBA:
+
+<PARAMVALUE NAME="    SP Name" TYPE="string"><VALUE>SP A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    SP Port ID" TYPE="uint64"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    HBA Devicename" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Trusted" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Logged In" TYPE="string"><VALUE>YES</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Source ID" TYPE="string"><VALUE>398848</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Defined" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Initiator Type" TYPE="string"><VALUE>3</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    StorageGroup Name" TYPE="string"><VALUE>None</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    ArrayCommPath" TYPE="string"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Failover mode" TYPE="string"><VALUE>4</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Unit serial number" TYPE="string"><VALUE>Array</VALUE>
+</PARAMVALUE>
+
+
+<PARAMVALUE NAME="    SP Name" TYPE="string"><VALUE>SP B</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    SP Port ID" TYPE="uint64"><VALUE>0</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    HBA Devicename" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Trusted" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Logged In" TYPE="string"><VALUE>YES</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Source ID" TYPE="string"><VALUE>398848</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Defined" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Initiator Type" TYPE="string"><VALUE>3</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    StorageGroup Name" TYPE="string"><VALUE>None</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    ArrayCommPath" TYPE="string"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Failover mode" TYPE="string"><VALUE>4</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Unit serial number" TYPE="string"><VALUE>Array</VALUE>
+</PARAMVALUE>
+
+
+
+Information about each HBA:
+
+<PARAMVALUE NAME="HBA UID" TYPE="string"><VALUE>50:01:43:80:05:6A:51:E5:50:01:43:80:05:6A:51:E4</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server Name" TYPE="string"><VALUE>50:01:43:80:05:6A:51:E5:50:01:43:80:05:6A:51:E4</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server IP Address" TYPE="string"><VALUE>UNKNOWN</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Model Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Vendor Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Device Driver Name" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+Information about each port of this HBA:
+
+<PARAMVALUE NAME="    SP Name" TYPE="string"><VALUE>SP A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    SP Port ID" TYPE="uint64"><VALUE>0</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    HBA Devicename" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Trusted" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Logged In" TYPE="string"><VALUE>YES</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Source ID" TYPE="string"><VALUE>593408</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Defined" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Initiator Type" TYPE="string"><VALUE>3</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    StorageGroup Name" TYPE="string"><VALUE>None</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    ArrayCommPath" TYPE="string"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Failover mode" TYPE="string"><VALUE>4</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Unit serial number" TYPE="string"><VALUE>Array</VALUE>
+</PARAMVALUE>
+
+
+
+Information about each HBA:
+
+<PARAMVALUE NAME="HBA UID" TYPE="string"><VALUE>50:01:43:80:26:EE:FB:31:50:01:43:80:26:EE:FB:30</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server Name" TYPE="string"><VALUE>50:01:43:80:26:EE:FB:31:50:01:43:80:26:EE:FB:30</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server IP Address" TYPE="string"><VALUE>UNKNOWN</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Model Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Vendor Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Device Driver Name" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+Information about each port of this HBA:
+
+<PARAMVALUE NAME="    SP Name" TYPE="string"><VALUE>SP A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    SP Port ID" TYPE="uint64"><VALUE>0</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    HBA Devicename" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Trusted" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Logged In" TYPE="string"><VALUE>YES</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Source ID" TYPE="string"><VALUE>1444352</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Defined" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Initiator Type" TYPE="string"><VALUE>3</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    StorageGroup Name" TYPE="string"><VALUE>None</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    ArrayCommPath" TYPE="string"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Failover mode" TYPE="string"><VALUE>4</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Unit serial number" TYPE="string"><VALUE>Array</VALUE>
+</PARAMVALUE>
+
+
+<PARAMVALUE NAME="    SP Name" TYPE="string"><VALUE>SP B</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    SP Port ID" TYPE="uint64"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    HBA Devicename" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Trusted" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Logged In" TYPE="string"><VALUE>YES</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Source ID" TYPE="string"><VALUE>1444352</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Defined" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Initiator Type" TYPE="string"><VALUE>3</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    StorageGroup Name" TYPE="string"><VALUE>None</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    ArrayCommPath" TYPE="string"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Failover mode" TYPE="string"><VALUE>4</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Unit serial number" TYPE="string"><VALUE>Array</VALUE>
+</PARAMVALUE>
+
+
+
+Information about each HBA:
+
+<PARAMVALUE NAME="HBA UID" TYPE="string"><VALUE>50:01:43:80:05:6A:51:E7:50:01:43:80:05:6A:51:E6</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server Name" TYPE="string"><VALUE>50:01:43:80:05:6A:51:E7:50:01:43:80:05:6A:51:E6</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server IP Address" TYPE="string"><VALUE>UNKNOWN</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Model Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Vendor Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Device Driver Name" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+Information about each port of this HBA:
+
+<PARAMVALUE NAME="    SP Name" TYPE="string"><VALUE>SP B</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    SP Port ID" TYPE="uint64"><VALUE>0</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    HBA Devicename" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Trusted" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Logged In" TYPE="string"><VALUE>YES</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Source ID" TYPE="string"><VALUE>658944</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Defined" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Initiator Type" TYPE="string"><VALUE>3</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    StorageGroup Name" TYPE="string"><VALUE>None</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    ArrayCommPath" TYPE="string"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Failover mode" TYPE="string"><VALUE>4</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Unit serial number" TYPE="string"><VALUE>Array</VALUE>
+</PARAMVALUE>
+
+
+
+Information about each HBA:
+
+<PARAMVALUE NAME="HBA UID" TYPE="string"><VALUE>50:01:43:80:24:2B:3E:49:50:01:43:80:24:2B:3E:48</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server Name" TYPE="string"><VALUE>50:01:43:80:24:2B:3E:49:50:01:43:80:24:2B:3E:48</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server IP Address" TYPE="string"><VALUE>UNKNOWN</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Model Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Vendor Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Device Driver Name" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+Information about each port of this HBA:
+
+<PARAMVALUE NAME="    SP Name" TYPE="string"><VALUE>SP A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    SP Port ID" TYPE="uint64"><VALUE>0</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    HBA Devicename" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Trusted" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Logged In" TYPE="string"><VALUE>YES</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Source ID" TYPE="string"><VALUE>1443840</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Defined" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Initiator Type" TYPE="string"><VALUE>3</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    StorageGroup Name" TYPE="string"><VALUE>None</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    ArrayCommPath" TYPE="string"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Failover mode" TYPE="string"><VALUE>4</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Unit serial number" TYPE="string"><VALUE>Array</VALUE>
+</PARAMVALUE>
+
+
+<PARAMVALUE NAME="    SP Name" TYPE="string"><VALUE>SP B</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    SP Port ID" TYPE="uint64"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    HBA Devicename" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Trusted" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Logged In" TYPE="string"><VALUE>YES</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Source ID" TYPE="string"><VALUE>1443840</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Defined" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Initiator Type" TYPE="string"><VALUE>3</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    StorageGroup Name" TYPE="string"><VALUE>None</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    ArrayCommPath" TYPE="string"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Failover mode" TYPE="string"><VALUE>4</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Unit serial number" TYPE="string"><VALUE>Array</VALUE>
+</PARAMVALUE>
+
+
+
+Information about each HBA:
+
+<PARAMVALUE NAME="HBA UID" TYPE="string"><VALUE>50:01:43:80:06:2D:1B:79:50:01:43:80:06:2D:1B:78</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server Name" TYPE="string"><VALUE>50:01:43:80:06:2D:1B:79:50:01:43:80:06:2D:1B:78</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server IP Address" TYPE="string"><VALUE>UNKNOWN</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Model Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Vendor Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Device Driver Name" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+Information about each port of this HBA:
+
+<PARAMVALUE NAME="    SP Name" TYPE="string"><VALUE>SP A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    SP Port ID" TYPE="uint64"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    HBA Devicename" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Trusted" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Logged In" TYPE="string"><VALUE>YES</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Source ID" TYPE="string"><VALUE>1447424</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Defined" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Initiator Type" TYPE="string"><VALUE>3</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    StorageGroup Name" TYPE="string"><VALUE>None</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    ArrayCommPath" TYPE="string"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Failover mode" TYPE="string"><VALUE>4</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Unit serial number" TYPE="string"><VALUE>Array</VALUE>
+</PARAMVALUE>
+
+
+<PARAMVALUE NAME="    SP Name" TYPE="string"><VALUE>SP B</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    SP Port ID" TYPE="uint64"><VALUE>0</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    HBA Devicename" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Trusted" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Logged In" TYPE="string"><VALUE>YES</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Source ID" TYPE="string"><VALUE>1447424</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Defined" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Initiator Type" TYPE="string"><VALUE>3</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    StorageGroup Name" TYPE="string"><VALUE>None</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    ArrayCommPath" TYPE="string"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Failover mode" TYPE="string"><VALUE>4</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Unit serial number" TYPE="string"><VALUE>Array</VALUE>
+</PARAMVALUE>
+
+
+
+Information about each HBA:
+
+<PARAMVALUE NAME="HBA UID" TYPE="string"><VALUE>50:01:43:80:12:0B:36:09:50:01:43:80:12:0B:36:08</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server Name" TYPE="string"><VALUE>50:01:43:80:12:0B:36:09:50:01:43:80:12:0B:36:08</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server IP Address" TYPE="string"><VALUE>UNKNOWN</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Model Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Vendor Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Device Driver Name" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+Information about each port of this HBA:
+
+<PARAMVALUE NAME="    SP Name" TYPE="string"><VALUE>SP A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    SP Port ID" TYPE="uint64"><VALUE>0</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    HBA Devicename" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Trusted" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Logged In" TYPE="string"><VALUE>YES</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Source ID" TYPE="string"><VALUE>201728</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Defined" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Initiator Type" TYPE="string"><VALUE>3</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    StorageGroup Name" TYPE="string"><VALUE>None</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    ArrayCommPath" TYPE="string"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Failover mode" TYPE="string"><VALUE>4</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Unit serial number" TYPE="string"><VALUE>Array</VALUE>
+</PARAMVALUE>
+
+
+
+Information about each HBA:
+
+<PARAMVALUE NAME="HBA UID" TYPE="string"><VALUE>50:01:43:80:24:2B:3E:4B:50:01:43:80:24:2B:3E:4A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server Name" TYPE="string"><VALUE>50:01:43:80:24:2B:3E:4B:50:01:43:80:24:2B:3E:4A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server IP Address" TYPE="string"><VALUE>UNKNOWN</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Model Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Vendor Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Device Driver Name" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+Information about each port of this HBA:
+
+<PARAMVALUE NAME="    SP Name" TYPE="string"><VALUE>SP A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    SP Port ID" TYPE="uint64"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    HBA Devicename" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Trusted" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Logged In" TYPE="string"><VALUE>YES</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Source ID" TYPE="string"><VALUE>1443840</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Defined" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Initiator Type" TYPE="string"><VALUE>3</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    StorageGroup Name" TYPE="string"><VALUE>None</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    ArrayCommPath" TYPE="string"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Failover mode" TYPE="string"><VALUE>4</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Unit serial number" TYPE="string"><VALUE>Array</VALUE>
+</PARAMVALUE>
+
+
+<PARAMVALUE NAME="    SP Name" TYPE="string"><VALUE>SP B</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    SP Port ID" TYPE="uint64"><VALUE>0</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    HBA Devicename" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Trusted" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Logged In" TYPE="string"><VALUE>YES</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Source ID" TYPE="string"><VALUE>1443840</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Defined" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Initiator Type" TYPE="string"><VALUE>3</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    StorageGroup Name" TYPE="string"><VALUE>None</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    ArrayCommPath" TYPE="string"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Failover mode" TYPE="string"><VALUE>4</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Unit serial number" TYPE="string"><VALUE>Array</VALUE>
+</PARAMVALUE>
+
+
+
+Information about each HBA:
+
+<PARAMVALUE NAME="HBA UID" TYPE="string"><VALUE>50:01:43:80:06:2D:1B:7B:50:01:43:80:06:2D:1B:7A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server Name" TYPE="string"><VALUE>50:01:43:80:06:2D:1B:7B:50:01:43:80:06:2D:1B:7A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server IP Address" TYPE="string"><VALUE>UNKNOWN</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Model Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Vendor Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Device Driver Name" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+Information about each port of this HBA:
+
+<PARAMVALUE NAME="    SP Name" TYPE="string"><VALUE>SP A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    SP Port ID" TYPE="uint64"><VALUE>0</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    HBA Devicename" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Trusted" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Logged In" TYPE="string"><VALUE>YES</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Source ID" TYPE="string"><VALUE>1447424</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Defined" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Initiator Type" TYPE="string"><VALUE>3</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    StorageGroup Name" TYPE="string"><VALUE>None</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    ArrayCommPath" TYPE="string"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Failover mode" TYPE="string"><VALUE>4</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Unit serial number" TYPE="string"><VALUE>Array</VALUE>
+</PARAMVALUE>
+
+
+<PARAMVALUE NAME="    SP Name" TYPE="string"><VALUE>SP B</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    SP Port ID" TYPE="uint64"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    HBA Devicename" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Trusted" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Logged In" TYPE="string"><VALUE>YES</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Source ID" TYPE="string"><VALUE>1447424</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Defined" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Initiator Type" TYPE="string"><VALUE>3</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    StorageGroup Name" TYPE="string"><VALUE>None</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    ArrayCommPath" TYPE="string"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Failover mode" TYPE="string"><VALUE>4</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Unit serial number" TYPE="string"><VALUE>Array</VALUE>
+</PARAMVALUE>
+
+
+
+Information about each HBA:
+
+<PARAMVALUE NAME="HBA UID" TYPE="string"><VALUE>50:01:43:80:16:7D:C4:0D:50:01:43:80:16:7D:C4:0C</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server Name" TYPE="string"><VALUE>50:01:43:80:16:7D:C4:0D:50:01:43:80:16:7D:C4:0C</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server IP Address" TYPE="string"><VALUE>UNKNOWN</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Model Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Vendor Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Device Driver Name" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+Information about each port of this HBA:
+
+<PARAMVALUE NAME="    SP Name" TYPE="string"><VALUE>SP B</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    SP Port ID" TYPE="uint64"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    HBA Devicename" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Trusted" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Logged In" TYPE="string"><VALUE>YES</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Source ID" TYPE="string"><VALUE>1445120</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Defined" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Initiator Type" TYPE="string"><VALUE>3</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    StorageGroup Name" TYPE="string"><VALUE>None</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    ArrayCommPath" TYPE="string"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Failover mode" TYPE="string"><VALUE>4</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Unit serial number" TYPE="string"><VALUE>Array</VALUE>
+</PARAMVALUE>
+
+
+
+Information about each HBA:
+
+<PARAMVALUE NAME="HBA UID" TYPE="string"><VALUE>50:01:43:80:16:7D:C4:0F:50:01:43:80:16:7D:C4:0E</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server Name" TYPE="string"><VALUE>50:01:43:80:16:7D:C4:0F:50:01:43:80:16:7D:C4:0E</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server IP Address" TYPE="string"><VALUE>UNKNOWN</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Model Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Vendor Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Device Driver Name" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+Information about each port of this HBA:
+
+<PARAMVALUE NAME="    SP Name" TYPE="string"><VALUE>SP A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    SP Port ID" TYPE="uint64"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    HBA Devicename" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Trusted" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Logged In" TYPE="string"><VALUE>YES</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Source ID" TYPE="string"><VALUE>1445120</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Defined" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Initiator Type" TYPE="string"><VALUE>3</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    StorageGroup Name" TYPE="string"><VALUE>None</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    ArrayCommPath" TYPE="string"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Failover mode" TYPE="string"><VALUE>4</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Unit serial number" TYPE="string"><VALUE>Array</VALUE>
+</PARAMVALUE>
+
+
+
+Information about each HBA:
+
+<PARAMVALUE NAME="HBA UID" TYPE="string"><VALUE>50:01:43:80:24:2B:3C:99:50:01:43:80:24:2B:3C:98</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server Name" TYPE="string"><VALUE>atrcxb2688</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server IP Address" TYPE="string"><VALUE>10.42.234.228</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Model Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Vendor Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Device Driver Name" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+Information about each port of this HBA:
+
+<PARAMVALUE NAME="    SP Name" TYPE="string"><VALUE>SP A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    SP Port ID" TYPE="uint64"><VALUE>0</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    HBA Devicename" TYPE="string"><VALUE>c0t500601603DE00A2Bd0s0</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Trusted" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Logged In" TYPE="string"><VALUE>YES</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Source ID" TYPE="string"><VALUE>0</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Defined" TYPE="string"><VALUE>YES</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Initiator Type" TYPE="string"><VALUE>3</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    StorageGroup Name" TYPE="string"><VALUE>None</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    ArrayCommPath" TYPE="string"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Failover mode" TYPE="string"><VALUE>4</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Unit serial number" TYPE="string"><VALUE>Array</VALUE>
+</PARAMVALUE>
+
+
+<PARAMVALUE NAME="    SP Name" TYPE="string"><VALUE>SP B</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    SP Port ID" TYPE="uint64"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    HBA Devicename" TYPE="string"><VALUE>c0t500601693DE00A2Bd0s0</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Trusted" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Logged In" TYPE="string"><VALUE>YES</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Source ID" TYPE="string"><VALUE>0</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Defined" TYPE="string"><VALUE>YES</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Initiator Type" TYPE="string"><VALUE>3</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    StorageGroup Name" TYPE="string"><VALUE>None</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    ArrayCommPath" TYPE="string"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Failover mode" TYPE="string"><VALUE>4</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Unit serial number" TYPE="string"><VALUE>Array</VALUE>
+</PARAMVALUE>
+
+
+Information about each HBA:
+
+<PARAMVALUE NAME="HBA UID" TYPE="string"><VALUE>50:01:43:80:24:2B:3C:9B:50:01:43:80:24:2B:3C:9A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server Name" TYPE="string"><VALUE>atrcxb2688</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server IP Address" TYPE="string"><VALUE>10.42.234.228</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Model Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Vendor Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Device Driver Name" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+Information about each port of this HBA:
+
+<PARAMVALUE NAME="    SP Name" TYPE="string"><VALUE>SP A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    SP Port ID" TYPE="uint64"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    HBA Devicename" TYPE="string"><VALUE>c1t500601613DE00A2Bd0s0</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Trusted" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Logged In" TYPE="string"><VALUE>YES</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Source ID" TYPE="string"><VALUE>0</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Defined" TYPE="string"><VALUE>YES</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Initiator Type" TYPE="string"><VALUE>3</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    StorageGroup Name" TYPE="string"><VALUE>None</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    ArrayCommPath" TYPE="string"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Failover mode" TYPE="string"><VALUE>4</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Unit serial number" TYPE="string"><VALUE>Array</VALUE>
+</PARAMVALUE>
+
+
+<PARAMVALUE NAME="    SP Name" TYPE="string"><VALUE>SP B</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    SP Port ID" TYPE="uint64"><VALUE>0</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    HBA Devicename" TYPE="string"><VALUE>c1t500601683DE00A2Bd0s0</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Trusted" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Logged In" TYPE="string"><VALUE>YES</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Source ID" TYPE="string"><VALUE>0</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Defined" TYPE="string"><VALUE>YES</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Initiator Type" TYPE="string"><VALUE>3</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    StorageGroup Name" TYPE="string"><VALUE>None</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    ArrayCommPath" TYPE="string"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Failover mode" TYPE="string"><VALUE>4</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Unit serial number" TYPE="string"><VALUE>Array</VALUE>
+</PARAMVALUE>
+
+
+
+Information about each HBA:
+
+<PARAMVALUE NAME="HBA UID" TYPE="string"><VALUE>50:01:43:80:12:0B:36:0B:50:01:43:80:12:0B:36:0A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server Name" TYPE="string"><VALUE>50:01:43:80:12:0B:36:0B:50:01:43:80:12:0B:36:0A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server IP Address" TYPE="string"><VALUE>UNKNOWN</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Model Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Vendor Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Device Driver Name" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+Information about each port of this HBA:
+
+<PARAMVALUE NAME="    SP Name" TYPE="string"><VALUE>SP B</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    SP Port ID" TYPE="uint64"><VALUE>0</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    HBA Devicename" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Trusted" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Logged In" TYPE="string"><VALUE>YES</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Source ID" TYPE="string"><VALUE>267264</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Defined" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Initiator Type" TYPE="string"><VALUE>3</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    StorageGroup Name" TYPE="string"><VALUE>None</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    ArrayCommPath" TYPE="string"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Failover mode" TYPE="string"><VALUE>4</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Unit serial number" TYPE="string"><VALUE>Array</VALUE>
+</PARAMVALUE>
+
+
+
+Information about each HBA:
+
+<PARAMVALUE NAME="HBA UID" TYPE="string"><VALUE>50:01:43:80:18:6B:3B:01:50:01:43:80:18:6B:3B:00</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server Name" TYPE="string"><VALUE>50:01:43:80:18:6B:3B:01:50:01:43:80:18:6B:3B:00</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Server IP Address" TYPE="string"><VALUE>UNKNOWN</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Model Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Vendor Description" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="HBA Device Driver Name" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+Information about each port of this HBA:
+
+<PARAMVALUE NAME="    SP Name" TYPE="string"><VALUE>SP B</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    SP Port ID" TYPE="uint64"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    HBA Devicename" TYPE="string"><VALUE></VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Trusted" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Logged In" TYPE="string"><VALUE>YES</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Source ID" TYPE="string"><VALUE>725504</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Defined" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Initiator Type" TYPE="string"><VALUE>3</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    StorageGroup Name" TYPE="string"><VALUE>None</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    ArrayCommPath" TYPE="string"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Failover mode" TYPE="string"><VALUE>4</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Unit serial number" TYPE="string"><VALUE>Array</VALUE>
+</PARAMVALUE>
+
+</VALUE></PARAMVALUE><RETURNVALUE TYPE="Navi_Error">
+<VALUE.NAMEDINSTANCE>
+<INSTANCENAME CLASSNAME="Navi_Error">
+</INSTANCENAME>
+<INSTANCE CLASSNAME="Navi_Error">
+<PROPERTY NAME="errorCode" TYPE="uint32"><VALUE>0</VALUE>
+</PROPERTY>
+<PROPERTY NAME="success" TYPE="boolean"><VALUE>true</VALUE>
+</PROPERTY>
+<PROPERTY NAME="where" TYPE="string"><VALUE>CLIProvider</VALUE>
+</PROPERTY>
+<PROPERTY NAME="why" TYPE="string"><VALUE>success</VALUE>
+</PROPERTY>
+</INSTANCE>
+</VALUE.NAMEDINSTANCE>
+</RETURNVALUE></METHODRESPONSE></SIMPLERSP></MESSAGE></CIM>
+

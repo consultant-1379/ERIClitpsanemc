@@ -1,0 +1,16 @@
+# Ignore these directories when looking for updates to commit
+BUILD/
+BUILDROOT/
+RPMS/
+SRPMS/
+.py
+*.pyc
+target/
+*.class
+.coverage
+htmlcov/
+.pydevproject
+.python-version
+.project
+.settings
+ERIClitpsanemc_CXP9030788/src/site/sphinx/*.rst
